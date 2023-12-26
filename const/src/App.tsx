@@ -6,10 +6,12 @@ import { Services } from "./pages/Services";
 import { Projects } from "./pages/Projects";
 import { Blog } from "./pages/Blog";
 import { Contact } from "./pages/Contact";
+import { Header } from "./components/Header";
 
 const App: React.FC = () => {
   return (
     <div>
+      <Header />
       <BrowserRouter>
         <Routes>
           <Route path="/" Component={Home} />
