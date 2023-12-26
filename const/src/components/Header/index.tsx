@@ -6,8 +6,114 @@ import { SocialMediaItem } from "../../types";
 const logoImgUrl = "./assets/logo-construction.png";
 
 export const Header: React.FC = () => {
+  const headerStyles = `
+    .navbar-light .navbar-nav .nav-link {
+      color: #444;
+    }
+    .custom-select {
+      position: relative;
+      width: 100%;
+      padding: 0 15px;
+      font-family: 'Poppins', san-serif;
+      font-size: 13px;
+      border: none;
+      border-radius: 0;
+    }
+    .custom-select:focus {
+      border: none;
+      outline: 0;
+      box-shadow: none;
+    }
+    .social-top li a {
+      font-size: 12px;
+    }
+
+    @media (min-width: 576px) {
+      .header-top {
+        background: #fafafa;
+      }
+      .select-lang {
+        border: none !important;
+      }
+      .custom-select {
+        border-radius: 10px;
+      }
+      .social-top-desk {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      .social-top-desk a {
+        color: #000;
+        font-family: 'Poppins', san-serif;
+        font-size: .7rem;
+      }
+      .social-top-desk a:hover {
+        text-decoration: none;
+      }
+      .header-main .fa {
+        color: #feb500;
+        font-size: 2.5rem;
+      }
+      .header-main .email,
+      .header-main .phone {
+        font-size: .9rem;
+      }
+      .header-main .email {
+        transform: translateX(-40%);
+      }
+      .header-main .phone {
+        transform: translateX(-70%);
+      }
+      .header-main .title {
+        display: block;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+      .header-main .data a {
+        color: #101010;
+      }
+      .header-main .data a:hover {
+        text-decoration: none;
+      }
+      .nav-custom {
+        padding: 0 !important;
+        margin: 0 !important;
+        background: #000 !important;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: .9rem;
+        z-index: 1000;
+      }
+      .nav-custom li {
+        padding: 15px 30px 15px 30px;
+        transition: ease-in-out .30s;
+      }
+      .nav-custom li a {
+        color: #fff !important;
+        transition: ease-in-out .30s;
+      }
+      .nav-custom li:hover {
+        background: #feb500;
+      }
+      .nav-custom li a:hover {
+        color: #000 !important;
+      }
+      .nav-custom #menu-search {
+        padding: 23px 25px;
+        background: #1f1f1f;
+        color: #fff;
+        transition: ease-in-out .30s;
+      }
+      .nav-custom #menu-search:hover {
+        background: #feb500;
+      }
+    }
+  `;
+
   return (
     <header id="header">
+      <style>{headerStyles}</style>
       <h1 className="main-title">Construction web</h1>
 
       {/* <! navbar mobile */}
