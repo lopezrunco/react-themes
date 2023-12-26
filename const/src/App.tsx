@@ -7,12 +7,9 @@ import { Projects } from "./pages/Projects";
 import { Blog } from "./pages/Blog";
 import { Contact } from "./pages/Contact";
 
-import GlobalStyle from "./GlobalStyle";
-
 const App: React.FC = () => {
   return (
     <div>
-      <GlobalStyle />
       <BrowserRouter>
         <Routes>
           <Route path="/" Component={Home} />
