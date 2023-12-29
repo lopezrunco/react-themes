@@ -1,7 +1,6 @@
 import { contactInfo } from "../../config/contactInfo";
 import { menuItems } from "../../config/menuItems";
-import { socialMediaItems } from "../../config/socialMediaItems";
-import { SocialMediaItem } from "../../types";
+import { SocialMediaItemI, socialMediaItems } from "../../config/socialMediaItems";
 
 const logoImgUrl = "./assets/logo-construction.png";
 
@@ -171,7 +170,7 @@ export const Header: React.FC = () => {
             {/* social mobile */}
             <div className="d-sm-none col">
               <ul className="social-top list-unstyled">
-                {socialMediaItems.map((item: SocialMediaItem) => (
+                {socialMediaItems.map((item: SocialMediaItemI) => (
                   <li key={item.id} className="d-inline-block mr-3">
                     <a href={item.link}>
                       <i className={item.iconClass} aria-hidden="true"></i>
@@ -184,7 +183,7 @@ export const Header: React.FC = () => {
             {/* <! desktop mobile */}
             <div className="d-none d-xl-block col">
               <ul className="social-top-desk list-unstyled justify-content-end">
-                {socialMediaItems.map((item: SocialMediaItem) => (
+                {socialMediaItems.map((item: SocialMediaItemI) => (
                   <li
                     key={item.id}
                     className="d-inline-block mr-3 pr-4 border-dark border-right"

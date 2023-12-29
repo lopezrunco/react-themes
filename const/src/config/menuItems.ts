@@ -1,6 +1,11 @@
-import { MenuItem } from "../types";
+interface MenuItemI {
+  id: number;
+  label: string;
+  link: string;
+  isActive?: boolean;
+}
 
-export const menuItems: MenuItem[] = [
+export const menuItems: MenuItemI[] = [
   { id: 1, label: "Home", link: "/", isActive: true },
   { id: 2, label: "Team", link: "/team", isActive: false },
   { id: 3, label: "Services", link: "/services", isActive: false },

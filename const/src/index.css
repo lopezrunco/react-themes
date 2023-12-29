@@ -459,44 +459,7 @@ cite {
   color: #000;
 }
 
-/* services */
 
-#services .items div {
-  width: 100%;
-  height: 320px;
-  margin: 0 15px 90px;
-  padding: 20px;
-  background: url(../images/construction-service-item.png) no-repeat center;
-}
-
-#services .items .fa-home,
-#services .items .fa-bolt,
-#services .items .fa-pencil {
-  margin-bottom: 5px;
-  font-size: 3.5rem;
-  color: #feb500;
-}
-
-#services .items .item-desc {
-  display: block;
-  margin: 0 0 10px;
-  color: #bbbbbb;
-  font-size: .8rem;
-  font-style: italic;
-}
-
-#services .items h3 {
-  font-family: Poppins;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-#services .btn-read-more {
-  left: 60px;
-  bottom: -20px;
-
-}
 
 /* we provide */
 
@@ -956,51 +919,7 @@ footer .bottom-4 {
     text-decoration: none;
   }
 
-  /* services */
-
-  #services,
-  #we-provide {
-    transform: translateY(-30px);
-  }
-
-  #services {
-    padding: 60px 0 0;
-  }
-
-  .section-title h2 {
-    font-size: 1.7rem;
-  }
-
-  .section-title h4:after {
-    left: 250px;
-    width: 120px;
-  }
-
-  #services .items div {
-    padding: 80px;
-    margin: 0;
-    height: 100%;
-    background: #f9f9f9;
-    color: #000;
-    cursor: pointer;
-    transition: ease-in-out .20s;
-  }
-
-  #services .items div:hover {
-    background: #000000d4;
-    color: #fff;
-  }
-
-  .btn-read-more {
-    background: #333;
-    transition: ease-in-out .20s;
-  }
-
-  .btn-read-more:hover {
-    background: #feb500;
-    color: #fff;
-  }
-
+  
   /* we provide */
 
   #we-provide h2 span {

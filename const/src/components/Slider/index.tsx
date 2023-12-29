@@ -1,12 +1,16 @@
 import React from "react";
+import { slides } from "../../config/slides";
 
-import { SlideProps } from "../../types";
-
-const slidesImgs: string[] = [
-  "./assets/slide-1.png",
-  "./assets/slide-2.png",
-  "./assets/slide-3.png",
-];
+interface SlideProps {
+  isActive: boolean;
+  imgSrc: string;
+  imgAlt: string;
+  captionLead: string;
+  captionTitle: string;
+  captionSubtitle: string;
+  link: string;
+  linkText: string;
+}
 
 export const Slider: React.FC = () => {
   const sliderStyles = `
@@ -109,36 +113,20 @@ export const Slider: React.FC = () => {
           data-ride="carousel"
         >
           <div className="carousel-inner">
-            <Slide
-              isActive={true}
-              imgSrc={slidesImgs[0]}
-              imgAlt={"First slide"}
-              captionLead={"Lorem ipsum dolor sit amet."}
-              captionTitle={"Construction web"}
-              captionSubtitle={"Construction group of industry"}
-              link={"/projects"}
-              linkText={"View proyects"}
-            />
-            <Slide
-              isActive={false}
-              imgSrc={slidesImgs[1]}
-              imgAlt={"Second slide"}
-              captionLead={"Lorem ipsum dolor sit amet."}
-              captionTitle={"Construction web"}
-              captionSubtitle={"Construction group of industry"}
-              link={"/projects"}
-              linkText={"View proyects"}
-            />
-            <Slide
-              isActive={false}
-              imgSrc={slidesImgs[2]}
-              imgAlt={"Third slide"}
-              captionLead={"Lorem ipsum dolor sit amet."}
-              captionTitle={"Construction web"}
-              captionSubtitle={"Construction group of industry"}
-              link={"/projects"}
-              linkText={"View proyects"}
-            />
+            {slides.map((item, i) => {
+              return (
+                <Slide
+                  isActive={item.isActive}
+                  imgSrc={item.imgSrc}
+                  imgAlt={item.imgAlt}
+                  captionLead={item.captionLead}
+                  captionTitle={item.captionTitle}
+                  captionSubtitle={item.captionSubtitle}
+                  link={item.link}
+                  linkText={item.linkText}
+                />
+              );
+            })}
             <a
               className="carousel-control-prev"
               href="#carouselExampleControls"

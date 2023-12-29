@@ -1,4 +1,13 @@
-export const contactInfo = [
+interface ContactInfoI {
+  id: number;
+  name: string;
+  text: string;
+  content: string;
+  icon: string;
+  link: string;
+}
+
+export const contactInfo: ContactInfoI[] = [
   {
     id: 1,
     name: "phone",
