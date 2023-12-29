@@ -329,74 +329,6 @@ cite {
 
 /* MAIN ----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-/* slider */
-
-.carousel-control-prev,
-.carousel-control-next {
-  top: 50%;
-  height: 30px;
-  width: 30px;
-  background: rgba(0, 0, 0, .5);
-  transform: translateY(-50%);
-  opacity: 0;
-  transition: ease-in-out .25s;
-}
-
-.carousel-control-prev:focus,
-.carousel-control-next:focus {
-  opacity: 1;
-}
-
-.carousel-control-prev {
-  left: 10px;
-}
-
-.carousel-control-next {
-  right: 10px;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  width: 10px;
-}
-
-.carousel-caption p.lead {
-  font-size: 10px;
-  line-height: normal;
-  font-weight: 300;
-  color: #fff;
-}
-
-.carousel-caption h5 {
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.carousel-caption p.subtitle {
-  font-size: 7px;
-  text-transform: uppercase;
-  line-height: normal;
-}
-
-.carousel-caption p.lead,
-.carousel-caption h5,
-.carousel-caption p.subtitle {
-  margin-bottom: 3px;
-}
-
-.carousel-caption p.subtitle {
-  margin-bottom: 10px;
-}
-
-#slider .btn {
-  padding: 8px 20px;
-  font-size: 10px;
-  font-weight: bold;
-  border: none;
-}
-
 .header-section-img {
   height: 290px;
   background: url(../images/slide-1.png) center no-repeat;
@@ -996,44 +928,6 @@ footer .bottom-4 {
 
 @media (min-width: 576px) {
   /* MAIN ----------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-  /* section header */
-
-  #slider,
-  #section-header {
-    transform: translateY(-35px);
-  }
-
-  .carousel-caption {
-    top: 50%;
-    transform: translateY(-40%);
-  }
-
-  #slider .lead {
-    padding-bottom: .4rem;
-    font-size: 1.3rem;
-  }
-
-  #slider h5 {
-    padding-bottom: .5rem;
-    font-size: 3rem;
-  }
-
-  #slider .subtitle {
-    font-size: 1.3rem;
-  }
-
-  #slider .btn {
-    margin: 20px 0 0;
-    padding: 10px 40px;
-    font-size: .7rem;
-  }
-
-  .carousel-control-prev,
-  .carousel-control-next {
-    height: 50px;
-    width: 50px;
-  }
 
   .page-header-breadcrumb:hover {
     background: #feb500;

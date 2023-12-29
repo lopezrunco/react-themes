@@ -11,3 +11,14 @@ export interface SocialMediaItem {
   iconClass: string;
   link: string;
 }
+
+export interface SlideProps {
+  isActive: boolean;
+  imgSrc: string;
+  imgAlt: string;
+  captionLead: string;
+  captionTitle: string;
+  captionSubtitle: string;
+  link: string;
+  linkText: string;
+}

@@ -28,7 +28,7 @@ export const Header: React.FC = () => {
       font-size: 12px;
     }
 
-    @media (min-width: 576px) {
+    @media (min-width: 996px) {
       .header-top {
         background: #fafafa;
       }
@@ -118,7 +118,7 @@ export const Header: React.FC = () => {
 
       {/* <! navbar mobile */}
       <div className="container pt-1 pl-0 pb-2 py-sm-0">
-        <nav className="d-sm-none navbar navbar-expand-lg navbar-light">
+        <nav className="d-lg-none navbar navbar-expand-lg navbar-light">
           <a className="navbar-brand" href="index.html">
             <img src={logoImgUrl} />
           </a>
@@ -166,7 +166,7 @@ export const Header: React.FC = () => {
               </select>
             </div>
 
-            <div className="d-none d-sm-block col-5"></div>
+            <div className="d-none d-lg-block col-5"></div>
 
             {/* social mobile */}
             <div className="d-sm-none col">
@@ -182,7 +182,7 @@ export const Header: React.FC = () => {
             </div>
 
             {/* <! desktop mobile */}
-            <div className="d-none d-sm-block col">
+            <div className="d-none d-xl-block col">
               <ul className="social-top-desk list-unstyled justify-content-end">
                 {socialMediaItems.map((item: SocialMediaItem) => (
                   <li
@@ -210,7 +210,7 @@ export const Header: React.FC = () => {
 
       {/* header main */}
       <div className="header-main">
-        <div className="container d-none d-sm-block py-sm-4">
+        <div className="container d-none d-lg-block py-sm-4">
           <div className="row">
             <div className="col-5">
               <a href="index.html">
@@ -244,7 +244,7 @@ export const Header: React.FC = () => {
 
       {/* navbar desktop */}
       <div className="container">
-        <nav className="d-none d-sm-block navbar navbar-expand-lg navbar-light bg-light nav-custom">
+        <nav className="d-none d-lg-block navbar navbar-expand-lg navbar-light bg-light nav-custom">
           <button
             className="navbar-toggler"
             type="button"
