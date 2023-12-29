@@ -1,6 +1,7 @@
 import React from "react";
 
 import { services } from "../../config/services";
+import { Title } from "../Title";
 
 interface ServiceItemProps {
   size: string;
@@ -89,13 +90,11 @@ export const Services: React.FC = () => {
     <section id="services" className="bg-light py-5">
       <style>{servicesStyles}</style>
       <article className="container">
-        <div className="row section-title">
-          <div className="col">
-            <h2>Our services</h2>
-            <h4>Construction Group of Industry</h4>
-          </div>
-        </div>
-
+        <Title
+          type="dark"
+          title="Our services"
+          subtitle="Construction Group of Industry"
+        />
         <div className="row items text-white">
           {services.map((item) => (
             <ServiceItem
