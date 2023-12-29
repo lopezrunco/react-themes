@@ -445,15 +445,7 @@ cite {
 }
 
 
-/* our projects */
 
-#our-projects ul li {
-  display: inline-block;
-}
-
-#our-projects .items div {
-  margin-bottom: 15px;
-}
 
 /* help-quote */
 
@@ -826,33 +818,7 @@ footer .bottom-4 {
  
   
 
-  /* our projects */
-
-  #our-projects ul.list-unstyled li {
-    display: block;
-  }
-
-  .btn-tag {
-    margin: 5px 0;
-    padding: 5px 0;
-    background: none;
-  }
-
-  #our-projects .items .col-sm-4 {
-    overflow: hidden;
-    background: rgba(254, 181, 0, 0.8);
-  }
-
-  #our-projects .items img {
-    width: 100%;
-    transition: ease-in-out .25s;
-    z-index: 1;
-  }
-
-  #our-projects .items img:hover {
-    transform: scale(1.1);
-    opacity: .3;
-  }
+  
 
   /* help quote */
 
