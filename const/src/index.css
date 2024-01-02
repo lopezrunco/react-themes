@@ -795,8 +795,6 @@ footer .bottom-4 {
     text-decoration: none;
   }
 
-  
-
   /* project details section */
 
   .form-box .get-quote {
@@ -861,26 +859,7 @@ footer .bottom-4 {
     font-size: .9rem;
   }
 
-  /* testimonials */
-
-  #testimonials .row {
-    width: 65%;
-    margin: 0 auto;
-  }
-
-  #testimonials img {
-    width: 130px;
-  }
-
-  #testimonials blockquote,
-  #testimonials .blockquote-f {
-    padding-left: 40px;
-  }
-
-  cite {
-    display: inline-block;
-  }
-
+  
   #blog-news .author .name {
     transform: translateX(-50px) translateY(10px);
   }
