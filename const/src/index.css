@@ -444,25 +444,6 @@ cite {
   color: #000;
 }
 
-
-
-
-/* help-quote */
-
-#help-quote .item-help .fa {
-  font-size: 1rem;
-  color: #feb500;
-}
-
-#help-quote .get-quote h2 {
-  color: #fff;
-}
-
-#help-quote label {
-  font-family: 'Poppins', san-serif;
-  font-size: .9rem;
-}
-
 /* project details section */
 
 .post-fields {
@@ -815,60 +796,6 @@ footer .bottom-4 {
   }
 
   
- 
-  
-
-  
-
-  /* help quote */
-
-  #help-quote .help {
-    padding-left: 80px;
-    padding-right: 150px;
-  }
-
-  #help-quote .section-title {
-    padding: 50px 0 0;
-  }
-
-  #help-quote .mask {
-    float: left;
-    overflow: hidden;
-  }
-
-  #help-quote .item-help img {
-    width: 105px;
-    padding: 0 30px 20px 0;
-    cursor: pointer;
-    transition: ease-in-out .30s;
-  }
-
-  #help-quote .item-help img:hover {
-    transform: scale(1.1);
-  }
-
-  #help-quote .item-help h3 {
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-
-  #help-quote .item-help h3:hover {
-    color: #202020;
-  }
-
-  #help-quote .item-help p {
-    line-height: 1.5rem;
-  }
-
-  #help-quote .bg-dark {
-    background: rgba(0, 0, 0, 0.92) !important;
-  }
-
-  .get-quote {
-    padding-left: 100px;
-    padding-right: 40px;
-    margin: 0px 15px;
-  }
 
   /* project details section */
 
@@ -1071,6 +998,7 @@ footer .bottom-4 {
 }
 
 @media (max-width: 380px) {
+
   /* brands*/
   #brands {
     display: none;

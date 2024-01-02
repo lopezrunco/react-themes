@@ -11,6 +11,9 @@ export const Title: React.FC<TitleProps> = ({ type, title, subtitle }) => {
         .section-title {
             margin-bottom: 40px;
         }
+        .section-title.dark h2 {
+          color: #fff;
+        }
         .section-title h4:after {
             content: '';
             display: inline-block;

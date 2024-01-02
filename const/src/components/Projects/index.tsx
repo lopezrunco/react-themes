@@ -52,7 +52,7 @@ export const Projects: React.FC = () => {
       <style>{projectsStyles}</style>
       <article className="container py-5">
         <Title
-          type="dark"
+          type="light"
           title="Our projects"
           subtitle="Construction Group of Industry"
         />

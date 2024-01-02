@@ -91,7 +91,7 @@ export const Services: React.FC = () => {
       <style>{servicesStyles}</style>
       <article className="container">
         <Title
-          type="dark"
+          type="light"
           title="Our services"
           subtitle="Construction Group of Industry"
         />
