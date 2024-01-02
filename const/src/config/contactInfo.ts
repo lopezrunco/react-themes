@@ -22,6 +22,22 @@ export const contactInfo: ContactInfoI[] = [
     text: "Email",
     content: "admin@email.com",
     icon: "fa fa-phone",
-    link: "fa fa-envelope-open",
+    link: "#",
+  },
+  {
+    id: 3,
+    name: "hours",
+    text: "Hours",
+    content: "Monday - Friday, 9am - 6 pm",
+    icon: "fa fa-clock-o",
+    link: "#",
+  },
+  {
+    id: 4,
+    name: "directions",
+    text: "Directions",
+    content: "San Francisco, USA",
+    icon: "fa fa-map-marker",
+    link: "#",
   },
 ];

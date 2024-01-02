@@ -1,4 +1,5 @@
 interface ProjectsI {
+  title: string;
   link: string;
   imgSrc: string;
 }
@@ -10,38 +11,47 @@ export interface ProjectCategoriesI {
 
 export const projects: ProjectsI[] = [
   {
+    title: "It has roots in a piece of",
     link: "/projects/projectdetail",
     imgSrc: "./assets/construction-project-1.png",
   },
   {
+    title: "Madri cal alaa",
     link: "/projects/projectdetail",
     imgSrc: "./assets/construction-project-2.png",
   },
   {
+    title: "",
     link: "/projects/projectdetail",
     imgSrc: "./assets/construction-project-3.png",
   },
   {
+    title: "Build The House Of Your Dreams",
     link: "/projects/projectdetail",
     imgSrc: "./assets/construction-project-4.png",
   },
   {
+    title: "Sapien nec ante sollicitudin",
     link: "/projects/projectdetail",
     imgSrc: "./assets/construction-project-5.png",
   },
   {
+    title: "Lorem ipsum dolor",
     link: "/projects/projectdetail",
     imgSrc: "./assets/construction-project-6.png",
   },
   {
+    title: "Ante sollicitudin luctus",
     link: "/projects/projectdetail",
     imgSrc: "./assets/construction-project-7.png",
   },
   {
+    title: "Dolores dellano",
     link: "/projects/projectdetail",
     imgSrc: "./assets/construction-project-8.png",
   },
   {
+    title: "Matrosko ver",
     link: "/projects/projectdetail",
     imgSrc: "./assets/construction-project-9.png",
   },

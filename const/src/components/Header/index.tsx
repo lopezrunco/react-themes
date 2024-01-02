@@ -1,6 +1,9 @@
 import { contactInfo } from "../../config/contactInfo";
 import { menuItems } from "../../config/menuItems";
-import { SocialMediaItemI, socialMediaItems } from "../../config/socialMediaItems";
+import {
+  SocialMediaItemI,
+  socialMediaItems,
+} from "../../config/socialMediaItems";
 
 const logoImgUrl = "./assets/logo-construction.png";
 
@@ -217,7 +220,7 @@ export const Header: React.FC = () => {
               </a>
             </div>
 
-            {contactInfo.map((info) => (
+            {contactInfo.slice(0, 2).map((info) => (
               <div className="col-2" key={info.id}>
                 <div className="row">
                   <div className="col-6">
