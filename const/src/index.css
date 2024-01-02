@@ -939,12 +939,6 @@ footer .bottom-4 {
 }
 
 @media (max-width: 380px) {
-
-  /* brands*/
-  #brands {
-    display: none;
-  }
-
   .section-title h4:after {
     display: none;
   }
