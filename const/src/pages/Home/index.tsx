@@ -7,6 +7,7 @@ import { WhyChoseUs } from "../../components/WhyChoseUs";
 import { Projects } from "../../components/Projects";
 import { Help } from "../../components/Help";
 import { Testimonials } from "../../components/Testimonials";
+import { LatestBlog } from "../../components/LatestBlog";
 
 export const Home: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ export const Home: React.FC = () => {
       <Projects />
       <Help />
       <Testimonials />
+      <LatestBlog />
     </React.Fragment>
   );
 };

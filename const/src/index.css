@@ -653,39 +653,6 @@ cite {
   font-weight: normal;
 }
 
-/* our blog news */
-
-#blog-news h3 {
-  font-size: 1rem;
-}
-
-#blog-news .categories a {
-  display: inline-block;
-  margin: 0 0 20px;
-  color: #8c8c8c;
-  font-style: italic;
-  font-size: .9rem;
-}
-
-#blog-news p {
-  font-size: .9rem;
-}
-
-#blog-news .author p {
-  color: #8c8c8c;
-  font-family: 'Poppins', san-serif;
-  font-size: .8rem;
-  line-height: normal;
-}
-
-#blog-news .author p span.date {
-  display: block;
-  color: #feb500;
-  font-size: .9rem;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
 .blog-post-detail .help {
   width: 90% !important;
   max-width: 90% !important;
@@ -857,11 +824,6 @@ footer .bottom-4 {
 
   .categories-widget li {
     font-size: .9rem;
-  }
-
-  
-  #blog-news .author .name {
-    transform: translateX(-50px) translateY(10px);
   }
 
   .blog-post-header .categories a {
