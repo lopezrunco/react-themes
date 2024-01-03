@@ -1,9 +1,11 @@
 import React from "react";
 
+import { TeamList } from "../../components/TeamList";
+
 export const Team: React.FC = () => {
   return (
     <React.Fragment>
-      <div>Team</div>
+      <TeamList />
     </React.Fragment>
   );
 };

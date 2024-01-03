@@ -333,117 +333,6 @@ cite {
   font-weight: normal;
 }
 
-/* team items */
-
-.team-item {
-  padding: 30px 20px;
-  margin-bottom: 80px;
-}
-
-.thumbnail {
-  display: block;
-  position: absolute;
-  width: 165px;
-  height: 165px;
-  border-radius: 50%;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  overflow: hidden;
-  z-index: 9999;
-}
-
-.thumbnail img {
-  transition: ease-in-out .30s;
-}
-
-.thumbnail img:hover {
-  transform: scale(1.1);
-}
-
-.item-content {
-  transform: translateY(50px);
-  padding: 100px 30px 30px;
-  background: #f9f9f9;
-}
-
-.item-content a {
-  color: #444;
-  font-size: 1.2rem;
-  font-weight: 700;
-  transition: ease-in-out .25s;
-}
-
-.item-content a:hover {
-  text-decoration: none;
-  color: #ff6a00;
-}
-
-.item-content .role {
-  font-size: .9rem;
-  color: #888888;
-}
-
-.item-content ul li {
-  display: inline-block;
-  margin: 0 5px 5px;
-  width: 34px;
-  height: 34px;
-  line-height: 34px;
-  border-radius: 50%;
-  color: #767676;
-  font-size: 15px;
-  background: white;
-}
-
-.team-item ul li a {
-  transition: ease-in-out .25s;
-}
-
-.team-item ul li a:hover {
-  color: #ff6a00;
-}
-
-.pagination ul {
-  position: relative;
-  width: 85%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.pagination ul li {
-  display: inline-block;
-  margin: 2px 5px;
-  padding: 15px 20px;
-  background: #f7f7f7;
-  text-transform: uppercase;
-  border-radius: 30px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: .9rem;
-  font-weight: bold;
-  text-align: center;
-  background: #f7f7f7;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-}
-
-.pagination ul li.active {
-  background: #feb500;
-}
-
-.pagination ul li.prev-next.active {
-  padding: 15px 40px;
-}
-
-.pagination ul li.page-navi-dots {
-  background: none;
-}
-
-.pagination ul li a {
-  color: #000;
-}
-
 /* project details section */
 
 .post-fields {
@@ -680,20 +569,6 @@ cite {
 
   #section-header .header-title h2 {
     width: 100%;
-  }
-
-  /* team items */
-
-  .pagination ul li:hover {
-    background: #feb500;
-  }
-
-  .pagination ul li.page-navi-dots:hover {
-    background: none;
-  }
-
-  .pagination ul li a:hover {
-    text-decoration: none;
   }
 
   /* project details section */
