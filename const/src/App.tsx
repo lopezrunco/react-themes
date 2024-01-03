@@ -8,6 +8,8 @@ import { Blog } from "./pages/Blog";
 import { Contact } from "./pages/Contact";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
+import { BlogPost } from "./pages/BlogPost";
+import { ProjectItem } from "./pages/ProjectItem";
 
 const App: React.FC = () => {
   return (
@@ -18,7 +20,9 @@ const App: React.FC = () => {
           <Route path="/" Component={Home} />
           <Route path="/team" Component={Team} />
           <Route path="/services" Component={Services} />
+          <Route path="/projects/item" Component={ProjectItem} />
           <Route path="/projects" Component={Projects} />
+          <Route path="/blog/post" Component={BlogPost} />
           <Route path="/blog" Component={Blog} />
           <Route path="/contact" Component={Contact} />
         </Routes>

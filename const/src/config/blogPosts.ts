@@ -23,7 +23,7 @@ export const blogPosts: BlogPostI[] = [
       date: "21 July 2021",
       avatarSrc: "./assets/construction-blog-post-avatar.png",
     },
-    link: "/blogdetail",
+    link: "/blog/post",
   },
   {
     imgSrc: "./assets/construction-blog-post-thumb-2.png",
@@ -36,6 +36,6 @@ export const blogPosts: BlogPostI[] = [
       date: "21 July 2021",
       avatarSrc: "./assets/construction-blog-post-avatar.png",
     },
-    link: "/blogdetail",
+    link: "/blog/post",
   },
 ];

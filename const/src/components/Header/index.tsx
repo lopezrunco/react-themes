@@ -121,7 +121,7 @@ export const Header: React.FC = () => {
       {/* <! navbar mobile */}
       <div className="container pt-1 pl-0 pb-2 py-sm-0">
         <nav className="d-lg-none navbar navbar-expand-lg navbar-light">
-          <a className="navbar-brand" href="index.html">
+          <a className="navbar-brand" href="/">
             <img src={logoImgUrl} />
           </a>
           <button
@@ -215,7 +215,7 @@ export const Header: React.FC = () => {
         <div className="container d-none d-lg-block py-sm-4">
           <div className="row">
             <div className="col-5">
-              <a href="index.html">
+              <a href="/">
                 <img src={logoImgUrl} className="main-logo" />
               </a>
             </div>

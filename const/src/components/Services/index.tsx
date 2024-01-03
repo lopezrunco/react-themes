@@ -111,7 +111,7 @@ export const Services: React.FC = () => {
 
         <div className="row text-center pt-5 mt-5">
           <div className="col">
-            <a href="services.html" className="btn-rounded btn-primary-rounded">
+            <a href="/services" className="btn-rounded btn-primary-rounded">
               View all services
             </a>
           </div>

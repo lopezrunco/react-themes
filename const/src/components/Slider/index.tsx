@@ -116,6 +116,7 @@ export const Slider: React.FC = () => {
             {slides.map((item, i) => {
               return (
                 <Slide
+                  key={i}
                   isActive={item.isActive}
                   imgSrc={item.imgSrc}
                   imgAlt={item.imgAlt}

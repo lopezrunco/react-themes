@@ -314,25 +314,6 @@ cite {
 
 /* MAIN ----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-.header-section-img {
-  height: 290px;
-  background: url(../images/slide-1.png) center no-repeat;
-  background-size: cover;
-}
-
-.header-title {
-  padding: 120px 0 100px;
-}
-
-.header-section-img h2 {
-  font-size: 3rem;
-}
-
-.header-section-img h4 {
-  font-size: 1rem;
-  font-weight: normal;
-}
-
 /* project details section */
 
 .post-fields {
@@ -558,18 +539,7 @@ cite {
 @media (min-width: 576px) {
   /* MAIN ----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-  .page-header-breadcrumb:hover {
-    background: #feb500;
-  }
 
-  .page-header-breadcrumb a:hover {
-    text-decoration: none;
-    color: #000;
-  }
-
-  #section-header .header-title h2 {
-    width: 100%;
-  }
 
   /* project details section */
 
