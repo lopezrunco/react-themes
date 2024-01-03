@@ -2,7 +2,7 @@ import React from "react";
 
 import { Breadcrumbs } from "../../components/Breadcrumbs";
 
-export const BlogPost: React.FC = () => {
+export const BlogPostPage: React.FC = () => {
   return (
     <React.Fragment>
       <Breadcrumbs

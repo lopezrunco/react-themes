@@ -51,4 +51,43 @@ export const services: ServiceItemI[] = [
     icon: "fa fa-pencil",
     link: "#",
   },
+  {
+    id: 4,
+    size: "col-lg-4",
+    categories: "Provide, construction, Services",
+    title: "Our services item 4",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores sint perspiciatis quidem amet earum sunt eos reprehenderit animi beatae odit?",
+    name: "address",
+    text: "Address",
+    content: "123 Street, City",
+    icon: "fa fa-pencil",
+    link: "#",
+  },
+  {
+    id: 5,
+    size: "col-lg-4",
+    categories: "Provide, construction, Services",
+    title: "Our services item 5",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores sint perspiciatis quidem amet earum sunt eos reprehenderit animi beatae odit?",
+    name: "address",
+    text: "Address",
+    content: "123 Street, City",
+    icon: "fa fa-pencil",
+    link: "#",
+  },
+  {
+    id: 6,
+    size: "col-lg-4",
+    categories: "Provide, construction, Services",
+    title: "Our services item 6",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores sint perspiciatis quidem amet earum sunt eos reprehenderit animi beatae odit?",
+    name: "address",
+    text: "Address",
+    content: "123 Street, City",
+    icon: "fa fa-pencil",
+    link: "#",
+  },
 ];

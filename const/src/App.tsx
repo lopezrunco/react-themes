@@ -1,15 +1,15 @@
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 
-import { Home } from "./pages/Home";
-import { Team } from "./pages/Team";
-import { Services } from "./pages/Services";
-import { Projects } from "./pages/Projects";
-import { Blog } from "./pages/Blog";
-import { Contact } from "./pages/Contact";
+import { HomePage } from "./pages/HomePage";
+import { TeamPage } from "./pages/TeamPage";
+import { ServicesPage } from "./pages/ServicesPage";
+import { ProjectsPage } from "./pages/ProjectsPage";
+import { BlogPage } from "./pages/BlogPage";
+import { ContactPage } from "./pages/ContactPage";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
-import { BlogPost } from "./pages/BlogPost";
-import { ProjectItem } from "./pages/ProjectItem";
+import { BlogPostPage } from "./pages/BlogPostPage";
+import { ProjectItemPage } from "./pages/ProjectItemPage";
 
 const App: React.FC = () => {
   return (
@@ -17,14 +17,14 @@ const App: React.FC = () => {
       <Header />
       <BrowserRouter>
         <Routes>
-          <Route path="/" Component={Home} />
-          <Route path="/team" Component={Team} />
-          <Route path="/services" Component={Services} />
-          <Route path="/projects/item" Component={ProjectItem} />
-          <Route path="/projects" Component={Projects} />
-          <Route path="/blog/post" Component={BlogPost} />
-          <Route path="/blog" Component={Blog} />
-          <Route path="/contact" Component={Contact} />
+          <Route path="/" Component={HomePage} />
+          <Route path="/team" Component={TeamPage} />
+          <Route path="/services" Component={ServicesPage} />
+          <Route path="/projects/item" Component={ProjectItemPage} />
+          <Route path="/projects" Component={ProjectsPage} />
+          <Route path="/blog/post" Component={BlogPostPage} />
+          <Route path="/blog" Component={BlogPage} />
+          <Route path="/contact" Component={ContactPage} />
         </Routes>
       </BrowserRouter>
       <Footer />

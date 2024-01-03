@@ -2,6 +2,11 @@ import React from "react";
 
 import { services } from "../../config/services";
 import { Title } from "../Title";
+import { Pagination } from "../Pagination";
+
+interface ServicesPropsI {
+  items: number;
+}
 
 interface ServiceItemProps {
   size: string;
@@ -12,7 +17,7 @@ interface ServiceItemProps {
   link: string;
 }
 
-export const Services: React.FC = () => {
+export const Services: React.FC<ServicesPropsI> = ({ items }) => {
   const servicesStyles = `
     #services .items div {
       width: 100%;
@@ -48,10 +53,6 @@ export const Services: React.FC = () => {
     }
 
     @media screen and (min-width: 576px) {
-      #services,
-      #we-provide {
-        transform: translateY(-30px);
-      }
       #services {
         padding: 60px 0 0;
       }
@@ -96,7 +97,7 @@ export const Services: React.FC = () => {
           subtitle="Construction Group of Industry"
         />
         <div className="row items text-white">
-          {services.map((item) => (
+          {services.slice(0, items).map((item) => (
             <ServiceItem
               key={item.id}
               size={item.size}
@@ -109,13 +110,14 @@ export const Services: React.FC = () => {
           ))}
         </div>
 
-        <div className="row text-center pt-5 mt-5">
+        <div className="row text-center pt-5 my-5">
           <div className="col">
             <a href="/services" className="btn-rounded btn-primary-rounded">
               View all services
             </a>
           </div>
         </div>
+        <Pagination pages={6} />
       </article>
     </section>
   );

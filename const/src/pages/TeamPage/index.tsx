@@ -4,7 +4,7 @@ import { TeamList } from "../../components/TeamList";
 import { Brands } from "../../components/Brands";
 import { Breadcrumbs } from "../../components/Breadcrumbs";
 
-export const Team: React.FC = () => {
+export const TeamPage: React.FC = () => {
   return (
     <React.Fragment>
       <Breadcrumbs

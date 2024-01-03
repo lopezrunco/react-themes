@@ -1,5 +1,6 @@
 import React from "react";
 import { TeamMemberI, team } from "../../config/team";
+import { Pagination } from "../Pagination";
 
 export const TeamList: React.FC = () => {
   const teamStyles = `
@@ -62,51 +63,6 @@ export const TeamList: React.FC = () => {
     .team-item ul li a:hover {
       color: #ff6a00;
     }
-    .pagination ul {
-      position: relative;
-      width: 85%;
-      margin: 0 auto;
-      text-align: center;
-    }
-    .pagination ul li {
-      display: inline-block;
-      margin: 2px 5px;
-      padding: 15px 20px;
-      background: #f7f7f7;
-      text-transform: uppercase;
-      border-radius: 30px;
-      font-family: 'Montserrat', sans-serif;
-      font-size: .9rem;
-      font-weight: bold;
-      text-align: center;
-      background: #f7f7f7;
-      -webkit-transition: 0.3s ease;
-      transition: 0.3s ease;
-    }
-    .pagination ul li.active {
-      background: #feb500;
-    }
-    .pagination ul li.prev-next.active {
-      padding: 15px 40px;
-    }
-    .pagination ul li.page-navi-dots {
-      background: none;
-    }
-    .pagination ul li a {
-      color: #000;
-    }
-
-    @media (min-width: 576px) {
-      .pagination ul li:hover {
-        background: #feb500;
-      }
-      .pagination ul li.page-navi-dots:hover {
-        background: none;
-      }
-      .pagination ul li a:hover {
-        text-decoration: none;
-      }
-    }
   `;
 
   return (
@@ -126,29 +82,7 @@ export const TeamList: React.FC = () => {
             );
           })}
         </div>
-
-        <div className="row pb-5 mb-5 pagination">
-          <ul>
-            <li className="prev-next active">
-              <a href="#">Prev</a>
-            </li>
-            <li className="active">
-              <a href="#">01</a>
-            </li>
-            <li>
-              <a href="#">02</a>
-            </li>
-            <li className="page-navi-dots">
-              <span>. . . . . .</span>
-            </li>
-            <li>
-              <a href="#">6</a>
-            </li>
-            <li className="prev-next active">
-              <a href="#">Next</a>
-            </li>
-          </ul>
-        </div>
+        <Pagination pages={3} />
       </div>
     </section>
   );

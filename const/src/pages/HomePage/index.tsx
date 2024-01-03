@@ -10,11 +10,11 @@ import { Testimonials } from "../../components/Testimonials";
 import { LatestBlog } from "../../components/LatestBlog";
 import { Brands } from "../../components/Brands";
 
-export const Home: React.FC = () => {
+export const HomePage: React.FC = () => {
   return (
     <React.Fragment>
       <Slider />
-      <Services />
+      <Services items={3} />
       <WeProvide />
       <WhyChoseUs />
       <Projects />
