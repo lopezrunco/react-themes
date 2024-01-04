@@ -87,13 +87,12 @@ export const Projects: React.FC<ProjectsPropsI> = ({ items }) => {
             </div>
           </div>
 
-          <div className="col text-center py-5">
+          <div className="col text-center pt-5">
             <a href="/contact" className="btn btn-primary">
               Get a free quote
             </a>
           </div>
         </div>
-        <Pagination pages={3} />
       </article>
     </section>
   );

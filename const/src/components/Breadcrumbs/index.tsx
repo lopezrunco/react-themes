@@ -1,12 +1,12 @@
 import React from "react";
 
-interface BreadcrumbsProps {
+interface BreadcrumbsPropsI {
   imgSrc: string;
   title: string;
   subtitle: string;
 }
 
-export const Breadcrumbs: React.FC<BreadcrumbsProps> = ({
+export const Breadcrumbs: React.FC<BreadcrumbsPropsI> = ({
   imgSrc,
   title,
   subtitle,

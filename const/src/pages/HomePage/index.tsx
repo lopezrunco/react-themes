@@ -7,20 +7,20 @@ import { WhyChoseUs } from "../../components/WhyChoseUs";
 import { Projects } from "../../components/Projects";
 import { Help } from "../../components/Help";
 import { Testimonials } from "../../components/Testimonials";
-import { LatestBlog } from "../../components/LatestBlog";
+import { BlogList } from "../../components/BlogList";
 import { Brands } from "../../components/Brands";
 
 export const HomePage: React.FC = () => {
   return (
     <React.Fragment>
       <Slider />
-      <Services items={3} />
+      <Services items={3} viewMore={true} />
       <WeProvide />
       <WhyChoseUs />
       <Projects items={6} />
       <Help />
       <Testimonials />
-      <LatestBlog />
+      <BlogList items={2} viewMore={true} />
       <Brands />
     </React.Fragment>
   );

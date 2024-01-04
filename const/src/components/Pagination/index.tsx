@@ -6,6 +6,9 @@ interface PaginationPropsI {
 
 export const Pagination: React.FC<PaginationPropsI> = ({ pages }) => {
   const paginationStyles = `
+    .pagination {
+      margin: 50px 0;
+    }
     .pagination ul {
       position: relative;
       width: 85%;

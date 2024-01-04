@@ -2,6 +2,7 @@ import React from "react";
 
 import { Breadcrumbs } from "../../components/Breadcrumbs";
 import { Brands } from "../../components/Brands";
+import { BlogList } from "../../components/BlogList";
 
 export const BlogPage: React.FC = () => {
   return (
@@ -11,7 +12,7 @@ export const BlogPage: React.FC = () => {
         title="Blog"
         subtitle="Construction news"
       />
-
+      <BlogList items={9} viewMore={false} />
       <Brands />
     </React.Fragment>
   );

@@ -2,9 +2,15 @@ import React from "react";
 
 import { Title } from "../Title";
 import { BlogPostI, blogPosts } from "../../config/blogPosts";
+import { Pagination } from "../Pagination";
 
-export const LatestBlog: React.FC = () => {
-  const LatestBlogStyles = `
+interface BlogListPropsI {
+  items: number;
+  viewMore: boolean;
+}
+
+export const BlogList: React.FC<BlogListPropsI> = ({ items, viewMore }) => {
+  const BlogListStyles = `
         #blog-news h3 {
             font-size: 1rem;
         }
@@ -42,7 +48,7 @@ export const LatestBlog: React.FC = () => {
 
   return (
     <section id="blog-news" className="py-5">
-      <style>{LatestBlogStyles}</style>
+      <style>{BlogListStyles}</style>
       <article className="container">
         <Title
           type="light"
@@ -50,7 +56,7 @@ export const LatestBlog: React.FC = () => {
           subtitle="Construction Group of Industry"
         />
         <div className="row items">
-          {blogPosts.map((item, i) => {
+          {blogPosts.slice(0, items).map((item, i) => {
             return (
               <Item
                 key={i}
@@ -64,13 +70,16 @@ export const LatestBlog: React.FC = () => {
             );
           })}
         </div>
-        <div className="row text-center py-sm-5">
-          <div className="col">
-            <a href="/blog" className="btn-rounded btn-primary-rounded">
-              View more
-            </a>
+        {viewMore && (
+          <div className="row text-center pt-sm-5">
+            <div className="col">
+              <a href="/blog" className="btn-rounded btn-primary-rounded">
+                View more
+              </a>
+            </div>
           </div>
-        </div>
+        )}
+        <Pagination pages={4} />
       </article>
     </section>
   );

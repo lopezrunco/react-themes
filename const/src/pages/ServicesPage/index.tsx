@@ -12,7 +12,7 @@ export const ServicesPage: React.FC = () => {
         title="Services"
         subtitle="We do all kind of things"
       />
-      <Services items={6} />
+      <Services items={6} viewMore={false} />
       <Brands />
     </React.Fragment>
   );

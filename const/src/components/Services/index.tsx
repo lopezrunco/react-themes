@@ -6,6 +6,7 @@ import { Pagination } from "../Pagination";
 
 interface ServicesPropsI {
   items: number;
+  viewMore: boolean;
 }
 
 interface ServiceItemProps {
@@ -17,7 +18,7 @@ interface ServiceItemProps {
   link: string;
 }
 
-export const Services: React.FC<ServicesPropsI> = ({ items }) => {
+export const Services: React.FC<ServicesPropsI> = ({ items, viewMore }) => {
   const servicesStyles = `
     #services .items div {
       width: 100%;
@@ -110,14 +111,15 @@ export const Services: React.FC<ServicesPropsI> = ({ items }) => {
           ))}
         </div>
 
-        <div className="row text-center pt-5 my-5">
-          <div className="col">
-            <a href="/services" className="btn-rounded btn-primary-rounded">
-              View all services
-            </a>
+        {viewMore && (
+          <div className="row text-center pt-5 my-5">
+            <div className="col">
+              <a href="/services" className="btn-rounded btn-primary-rounded">
+                View all services
+              </a>
+            </div>
           </div>
-        </div>
-        <Pagination pages={6} />
+        )}
       </article>
     </section>
   );
