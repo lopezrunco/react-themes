@@ -506,23 +506,6 @@ cite {
   margin-bottom: 20px;
 }
 
-/* contact page*/
-
-.contact-section .header-title {
-  padding: 60px 0 100px;
-}
-
-.contact-section#we-provide h2 {
-  margin: 0 0 0px;
-  font-size: 1.5rem !important;
-}
-
-.contact-section-title h4 {
-  margin: 0;
-  font-size: .8rem;
-  font-weight: normal;
-}
-
 .blog-post-detail .help {
   width: 90% !important;
   max-width: 90% !important;
@@ -609,67 +592,7 @@ cite {
     color: #feb500
   }
 
-  /* contact section */
-  .contact-section .header-title {
-    padding: 120px 0 100px;
-  }
-
-  /* bottom 1 */
-
-  .btn-primary:hover {
-    color: #000 !important;
-    background-color: #feb500;
-    border: 1px solid #feb500;
-  }
-
-  .bottom-1 .btn-primary a:hover {
-    color: #000;
-  }
-
-  /* bottom 2 */
-
-  .bottom-2 a:hover,
-  .bottom-3 a:hover,
-  .bottom-4 a:hover {
-    color: #fff;
-    text-decoration: none;
-  }
-
-  .bottom-2 li a:after {
-    display: none;
-  }
-
-  /* bottom 3 */
-
-  .bottom-3 a,
-  .bottom-3 span {
-    font-size: 1rem;
-  }
-
-  .bottom-3 ul li i {
-    margin-right: 15px;
-  }
-
-  /* bottom 4 */
-
-  .bottom-4 a:hover {
-    color: #bbb;
-  }
-
-  /* copyright */
-
-  .copyright {
-    background: #000 !important;
-    font-size: 1.1rem;
-  }
-
-  .copyright a {
-    color: #feb500;
-  }
-
-  .copyright a:hover {
-    text-decoration: none;
-  }
+  
 }
 
 @media (min-width: 1400px) {

@@ -7,61 +7,101 @@ import { contactInfo } from "../../config/contactInfo";
 
 export const Footer: React.FC = () => {
   const footerStyles = `
-        footer {
-            background: #202020;
-            font-family: 'Poppins', san-serif;
-            font-size: .9rem;
-        }
-        footer h3 {
-            font-weight: 700;
-            text-transform: capitalize;
-        }
-        footer p {
-            color: #bbbbbb;
-        }
-        footer a {
-            color: #fff;
-        }
-        footer .bottom-2,
-        footer .bottom-3,
-        footer .bottom-4 {
-            font-size: 1.1rem;
-            line-height: 3rem;
-        }
-        .bottom-2 li a,
-        .bottom-3 li a {
-            font-size: 1rem;
-        }
-        .bottom-2 li a:after {
-            position: relative;
-            float: right;
-            bottom: -5px;
-            content: "\f054";
-            font-family: fontawesome;
-            display: block;
-            width: 30px;
-            height: 30px;
-            line-height: 30px;
-            border-left: 1px solid;
-            text-align: center;
-            font-size: 11px;
-        }
-        .bottom-3 ul li i,
-        .contact-widget ul li i {
-            margin-right: 30px;
-            color: #feb500;
-        }
-        .bottom-4 a {
-            color: #bbb;
-            font-size: .9rem;
-        }
-        .bottom-4 ul li {
-            line-height: 2rem;
-        }
-        .bottom-4 ul li i {
-            margin-right: 10px;
-        }
-    `;
+    footer {
+        background: #202020;
+        font-family: 'Poppins', san-serif;
+        font-size: .9rem;
+    }
+    footer h3 {
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    footer p {
+        color: #bbbbbb;
+    }
+    footer a {
+        color: #fff;
+    }
+    footer .bottom-2,
+    footer .bottom-3,
+    footer .bottom-4 {
+        font-size: 1.1rem;
+        line-height: 3rem;
+    }
+    .bottom-2 li a,
+    .bottom-3 li a {
+        font-size: 1rem;
+    }
+    .bottom-2 li a:after {
+        position: relative;
+        float: right;
+        bottom: -5px;
+        content: "\f054";
+        font-family: fontawesome;
+        display: block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        border-left: 1px solid;
+        text-align: center;
+        font-size: 11px;
+    }
+    .bottom-3 ul li i,
+    .contact-widget ul li i {
+        margin-right: 30px;
+        color: #feb500;
+    }
+    .bottom-4 a {
+        color: #bbb;
+        font-size: .9rem;
+    }
+    .bottom-4 ul li {
+        line-height: 2rem;
+    }
+    .bottom-4 ul li i {
+        margin-right: 10px;
+    }
+
+    @media (min-width: 576px) {
+      .btn-primary:hover {
+        color: #000 !important;
+        background-color: #feb500;
+        border: 1px solid #feb500;
+      }
+      .bottom-1 .btn-primary a:hover {
+        color: #000;
+      }
+      .bottom-2 a:hover,
+      .bottom-3 a:hover,
+      .bottom-4 a:hover {
+        color: #fff;
+        text-decoration: none;
+      }
+      .bottom-2 li a:after {
+        display: none;
+      }
+      .bottom-3 a,
+      .bottom-3 span {
+        font-size: 1rem;
+      }
+      .bottom-3 ul li i {
+        margin-right: 15px;
+      }
+      .bottom-4 a:hover {
+        color: #bbb;
+      }
+      .copyright {
+        background: #000 !important;
+        font-size: 1.1rem;
+      }
+      .copyright a {
+        color: #feb500;
+      }
+      .copyright a:hover {
+        text-decoration: none;
+      }
+    }
+  `;
 
   return (
     <footer id="footer" className="text-white pt-5">
