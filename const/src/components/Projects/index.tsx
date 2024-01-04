@@ -6,6 +6,11 @@ import {
   projects,
 } from "../../config/projects";
 import { Title } from "../Title";
+import { Pagination } from "../Pagination";
+
+interface ProjectsPropsI {
+  items: number;
+}
 
 interface ProjectItemProps {
   size: string;
@@ -13,7 +18,7 @@ interface ProjectItemProps {
   imgSrc: string;
 }
 
-export const Projects: React.FC = () => {
+export const Projects: React.FC<ProjectsPropsI> = ({ items }) => {
   const projectsStyles = `
         #our-projects ul li {
             display: inline-block;
@@ -69,7 +74,7 @@ export const Projects: React.FC = () => {
           </div>
           <div className="col-sm-10">
             <div className="row items text-white text-center">
-              {projects.map((item, i) => {
+              {projects.slice(0, items).map((item, i) => {
                 return (
                   <ProjectItem
                     key={i}
@@ -88,6 +93,7 @@ export const Projects: React.FC = () => {
             </a>
           </div>
         </div>
+        <Pagination pages={3} />
       </article>
     </section>
   );

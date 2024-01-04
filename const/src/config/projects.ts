@@ -21,7 +21,7 @@ export const projects: ProjectsI[] = [
     imgSrc: "./assets/construction-project-2.png",
   },
   {
-    title: "",
+    title: "Madri cal alaa",
     link: "/projects/item",
     imgSrc: "./assets/construction-project-3.png",
   },
@@ -54,6 +54,21 @@ export const projects: ProjectsI[] = [
     title: "Matrosko ver",
     link: "/projects/item",
     imgSrc: "./assets/construction-project-9.png",
+  },
+  {
+    title: "Ante sollicitudin luctus",
+    link: "/projects/item",
+    imgSrc: "./assets/construction-project-1.png",
+  },
+  {
+    title: "Matrosko ver",
+    link: "/projects/item",
+    imgSrc: "./assets/construction-project-2.png",
+  },
+  {
+    title: "Ante sollicitudin luctus",
+    link: "/projects/item",
+    imgSrc: "./assets/construction-project-3.png",
   },
 ];
 

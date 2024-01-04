@@ -17,7 +17,7 @@ export const HomePage: React.FC = () => {
       <Services items={3} />
       <WeProvide />
       <WhyChoseUs />
-      <Projects />
+      <Projects items={6} />
       <Help />
       <Testimonials />
       <LatestBlog />
