@@ -433,29 +433,9 @@ cite {
   color: #444;
 }
 
-.projects-widget li {
-  font-size: 1rem;
-  font-weight: 600;
-}
-
 .projects-widget li,
 .contact-widget li {
   margin-bottom: 2rem;
-}
-
-.projects-widget li a:after {
-  position: absolute;
-  right: 1rem;
-  content: "\f054";
-  font-family: fontawesome;
-  display: block;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  border-left: 1px solid;
-  text-align: center;
-  font-size: 11px;
-  transform: translateY(-100%);
 }
 
 .archives-widget li,
@@ -548,13 +528,7 @@ cite {
   /**/
 
 
-  .projects-widget li {
-    width: 85%;
-  }
 
-  .projects-widget li a:after {
-    transform: translateY(-150%);
-  }
 
   .contact-widget a:hover {
     color: initial;

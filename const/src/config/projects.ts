@@ -18,7 +18,7 @@ export interface ProjectCategoriesI {
 
 export const projects: ProjectsI[] = [
   {
-    title: "It has roots in a piece of side",
+    title: "It has roots in a piece of side dormen diall",
     subtitle: "Lorem ipsum damal solar",
     client: "A Big Company",
     area: "100,000 m2",
@@ -30,7 +30,7 @@ export const projects: ProjectsI[] = [
     imgSrc: "./assets/construction-project-1.png",
   },
   {
-    title: "Madri cal alaa",
+    title: "Madri cal alaa roots in a piece of side",
     subtitle: "Lorem ipsum damal",
     client: "A Big Company",
     area: "100,000 m2",
@@ -42,7 +42,7 @@ export const projects: ProjectsI[] = [
     imgSrc: "./assets/construction-project-2.png",
   },
   {
-    title: "Madri cal alaa",
+    title: "Lorem ipsum dolor sit amet doll dell",
     subtitle: "Lorem ipsum damal",
     client: "A Big Company",
     area: "100,000 m2",

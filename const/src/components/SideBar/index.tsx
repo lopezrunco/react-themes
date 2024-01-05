@@ -10,7 +10,7 @@ export const SideBar: React.FC = () => {
   return (
     <aside className="col-sm-3 sidebar">
       <RecentNews items={3} />
-      <OurProjects />
+      <OurProjects items={4} />
       <Archives />
       <ContactInfo />
       <Categories />
