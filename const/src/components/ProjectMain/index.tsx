@@ -1,6 +1,7 @@
 import React from "react";
 
 import { GetAQuoteForm } from "../GetAQuoteForm"
+import { SocialBar } from "../SocialBar"
 
 interface ProjectMainI {
   project: object;
@@ -72,69 +73,7 @@ export const ProjectMain: React.FC<ProjectMainI> = ({ project }) => {
       </div>
 
       <GetAQuoteForm />
-
-      {/* social mobile */}
-      <div className="row">
-        <div className="d-sm-none col social-box-mobile">
-          <ul className="social-top list-unstyled">
-            <li className="d-inline-block mr-3">
-              <a href="#">
-                <i className="fa fa-facebook text-dark" aria-hidden="true"></i>
-              </a>
-            </li>
-            <li className="d-inline-block mx-3">
-              <a href="#">
-                <i
-                  className="fa fa-google-plus text-dark"
-                  aria-hidden="true"
-                ></i>
-              </a>
-            </li>
-            <li className="d-inline-block mx-3">
-              <a href="#">
-                <i className="fa fa-twitter text-dark" aria-hidden="true"></i>
-              </a>
-            </li>
-            <li className="d-inline-block ml-3">
-              <a href="#">
-                <i className="fa fa-linkedin text-dark" aria-hidden="true"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      {/* social desktop */}
-      <div className="row d-none d-sm-block social-box">
-        <div className="d-none d-sm-block col">
-          <ul className="social-top-desk list-unstyled justify-content-end">
-            <li className="d-inline-block mr-3 pr-4 border-dark border-right">
-              <a href="#">
-                <i className="mr-2 fa fa-facebook" aria-hidden="true"></i>
-                Facebook
-              </a>
-            </li>
-            <li className="d-inline-block mx-3 pr-4 border-dark border-right">
-              <a href="#">
-                <i className="mr-2 fa fa-google-plus" aria-hidden="true"></i>
-                Google plus
-              </a>
-            </li>
-            <li className="d-inline-block mx-3 pr-4 border-dark border-right">
-              <a href="#">
-                <i className="mr-2 fa fa-twitter" aria-hidden="true"></i>
-                Twitter
-              </a>
-            </li>
-            <li className="d-inline-block">
-              <a href="#">
-                <i className="mr-2 fa fa-linkedin" aria-hidden="true"></i>
-                Linked in
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <SocialBar />
     </div>
   );
 };

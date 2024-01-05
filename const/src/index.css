@@ -393,20 +393,6 @@ cite {
   margin-right: 15px;
 }
 
-.social-box-mobile {
-  padding: 15px 0 5px;
-  margin: 30px 0;
-  background: #f8f8f8;
-  text-align: center;
-}
-
-.social-box {
-  padding: 5px 0;
-  margin: 40px 0;
-  background: #f8f8f8;
-  text-align: center;
-}
-
 .widget,
 .widget a {
   color: #444;
