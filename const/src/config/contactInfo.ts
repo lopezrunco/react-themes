@@ -21,7 +21,7 @@ export const contactInfo: ContactInfoI[] = [
     name: "email",
     text: "Email",
     content: "admin@email.com",
-    icon: "fa fa-phone",
+    icon: "fa fa-envelope",
     link: "#",
   },
   {
