@@ -12,7 +12,8 @@ Feel free to explore, use, and contribute to this collection of themes to enhanc
 
 ## Projects included
 
-- [ ] const
+- [X] const
+- [ ] mkmony
 
 ## Getting Started
 
