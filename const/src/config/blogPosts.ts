@@ -13,20 +13,20 @@ export interface BlogPostI {
 
 export const blogPosts: BlogPostI[] = [
   {
-    imgSrc: "./assets/construction-blog-post-thumb-1.png",
-    title: "Integrated design engineering construction",
+    imgSrc: "../assets/construction-blog-post-thumb-1.png",
+    title: "Integrated design engineering constructions",
     categories: ["Provide,", "Services,", "Services"],
     description:
       "Lorem ipsum dolor sit amet, conse nil adipiscing Donec nec eros tristiq...",
     author: {
       name: "John Smith",
-      date: "21 July 2021",
-      avatarSrc: "./assets/construction-blog-post-avatar.png",
+      date: "21 July 2022",
+      avatarSrc: "../assets/construction-blog-post-avatar.png",
     },
     link: "/blog/post",
   },
   {
-    imgSrc: "./assets/construction-blog-post-thumb-2.png",
+    imgSrc: "../assets/construction-blog-post-thumb-2.png",
     title: "Integrated design engineering construction",
     categories: ["Provide,", "Services,", "Services"],
     description:
@@ -34,12 +34,12 @@ export const blogPosts: BlogPostI[] = [
     author: {
       name: "John Smith",
       date: "21 July 2021",
-      avatarSrc: "./assets/construction-blog-post-avatar.png",
+      avatarSrc: "../assets/construction-blog-post-avatar.png",
     },
     link: "/blog/post",
   },
   {
-    imgSrc: "./assets/construction-blog-post-thumb-1.png",
+    imgSrc: "../assets/construction-blog-post-thumb-1.png",
     title: "Integrated design engineering construction",
     categories: ["Provide,", "Services,", "Services"],
     description:
@@ -47,12 +47,12 @@ export const blogPosts: BlogPostI[] = [
     author: {
       name: "John Smith",
       date: "21 July 2021",
-      avatarSrc: "./assets/construction-blog-post-avatar.png",
+      avatarSrc: "../assets/construction-blog-post-avatar.png",
     },
     link: "/blog/post",
   },
   {
-    imgSrc: "./assets/construction-blog-post-thumb-2.png",
+    imgSrc: "../assets/construction-blog-post-thumb-2.png",
     title: "Integrated design engineering construction",
     categories: ["Provide,", "Services,", "Services"],
     description:
@@ -60,12 +60,12 @@ export const blogPosts: BlogPostI[] = [
     author: {
       name: "John Smith",
       date: "21 July 2021",
-      avatarSrc: "./assets/construction-blog-post-avatar.png",
+      avatarSrc: "../assets/construction-blog-post-avatar.png",
     },
     link: "/blog/post",
   },
   {
-    imgSrc: "./assets/construction-blog-post-thumb-1.png",
+    imgSrc: "../assets/construction-blog-post-thumb-1.png",
     title: "Integrated design engineering construction",
     categories: ["Provide,", "Services,", "Services"],
     description:
@@ -73,12 +73,12 @@ export const blogPosts: BlogPostI[] = [
     author: {
       name: "John Smith",
       date: "21 July 2021",
-      avatarSrc: "./assets/construction-blog-post-avatar.png",
+      avatarSrc: "../assets/construction-blog-post-avatar.png",
     },
     link: "/blog/post",
   },
   {
-    imgSrc: "./assets/construction-blog-post-thumb-2.png",
+    imgSrc: "../assets/construction-blog-post-thumb-2.png",
     title: "Integrated design engineering construction",
     categories: ["Provide,", "Services,", "Services"],
     description:
@@ -86,7 +86,7 @@ export const blogPosts: BlogPostI[] = [
     author: {
       name: "John Smith",
       date: "21 July 2021",
-      avatarSrc: "./assets/construction-blog-post-avatar.png",
+      avatarSrc: "../assets/construction-blog-post-avatar.png",
     },
     link: "/blog/post",
   },

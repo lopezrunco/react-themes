@@ -433,27 +433,6 @@ cite {
   color: #444;
 }
 
-.widget-post-item {
-  margin-bottom: 30px;
-}
-
-.widget-post-item .post-thumbnail {
-  float: left;
-  margin-right: 22px;
-}
-
-.widget-post-item .post-date {
-  font-size: .8rem;
-  text-transform: uppercase;
-  line-height: 2rem;
-  color: #feb500;
-}
-
-.widget-post-item .post-date a p {
-  text-transform: initial;
-  line-height: 1.3rem;
-}
-
 .projects-widget li {
   font-size: 1rem;
   font-weight: 600;
@@ -568,9 +547,6 @@ cite {
 
   /**/
 
-  .widget-post-item .post-date a p {
-    font-size: .9rem;
-  }
 
   .projects-widget li {
     width: 85%;
