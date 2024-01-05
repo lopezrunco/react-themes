@@ -4,7 +4,6 @@ import { RecentNews } from "../RecentNews";
 import { OurProjects } from "../OurProjects";
 import { Archives } from "../Archives";
 import { ContactInfo } from "../ContactInfo";
-import { Categories } from "../Categories";
 
 export const SideBar: React.FC = () => {
   return (
@@ -13,7 +12,6 @@ export const SideBar: React.FC = () => {
       <OurProjects items={4} />
       <Archives />
       <ContactInfo />
-      <Categories />
     </aside>
   );
 };

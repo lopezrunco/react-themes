@@ -393,14 +393,6 @@ cite {
   margin-right: 15px;
 }
 
-.form-box .section-title h2 {
-  color: #fff;
-}
-
-.form-box form button {
-  margin-left: 15px;
-}
-
 .social-box-mobile {
   padding: 15px 0 5px;
   margin: 30px 0;
@@ -421,8 +413,7 @@ cite {
 }
 
 .news-widget,
-.projects-widget,
-.categories-widget {
+.projects-widget {
   font-family: 'Poppins', san-serif;
 }
 
@@ -438,19 +429,9 @@ cite {
   margin-bottom: 2rem;
 }
 
-.archives-widget li,
-.categories-widget li {
+.archives-widget li {
   margin-bottom: 1rem;
   font-size: .9rem;
-}
-
-.categories-widget li {
-  font-size: .8rem;
-  font-weight: 600;
-}
-
-.categories-widget li span:last-child {
-  float: right;
 }
 
 .blog-post-thumb img {
@@ -477,18 +458,6 @@ cite {
 
 
   /* project details section */
-
-  .form-box .get-quote {
-    padding: 80px 50px;
-  }
-
-  .form-box .form-group {
-    width: 100%;
-  }
-
-  .form-box form div {
-    float: left;
-  }
 
   .social-top-desk {
     top: 0%;
@@ -520,13 +489,6 @@ cite {
 
   /**/
 
-
-
-
-
-  .categories-widget li {
-    font-size: .9rem;
-  }
 
   .blog-post-header .categories a {
     color: #feb500
