@@ -11,6 +11,11 @@ export interface BlogPostI {
   link: string;
 }
 
+export interface BlogArchivesI {
+  date: string;
+  link: string;
+}
+
 export const blogPosts: BlogPostI[] = [
   {
     imgSrc: "../assets/construction-blog-post-thumb-1.png",
@@ -91,3 +96,26 @@ export const blogPosts: BlogPostI[] = [
     link: "/blog/post",
   },
 ];
+
+export const blogArchives: BlogArchivesI[] = [
+  {
+    date: 'January 2014',
+    link: "/"
+  },
+  {
+    date: 'Septemeber 2015',
+    link: "/"
+  },
+  {
+    date: 'August 2015',
+    link: "/"
+  },
+  {
+    date: 'July 2015',
+    link: "/"
+  },
+  {
+    date: 'June 2015',
+    link: "/"
+  },
+]

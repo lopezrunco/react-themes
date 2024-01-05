@@ -444,13 +444,6 @@ cite {
   font-size: .9rem;
 }
 
-.archives-widget li:before {
-  content: "\f054";
-  font-family: fontawesome;
-  font-size: 10px;
-  margin-right: 10px;
-}
-
 .categories-widget li {
   font-size: .8rem;
   font-weight: 600;
