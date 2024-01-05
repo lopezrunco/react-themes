@@ -19,7 +19,7 @@ export interface BlogArchivesI {
 export const blogPosts: BlogPostI[] = [
   {
     imgSrc: "../assets/construction-blog-post-thumb-1.png",
-    title: "Integrated design engineering constructions",
+    title: "Integrated design engineering",
     categories: ["Provide,", "Services,", "Services"],
     description:
       "Lorem ipsum dolor sit amet, conse nil adipiscing Donec nec eros tristiq...",
@@ -28,6 +28,11 @@ export const blogPosts: BlogPostI[] = [
       date: "21 July 2022",
       avatarSrc: "../assets/construction-blog-post-avatar.png",
     },
+    content: [
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste non, ratione dolores repellat officia ab eum saepe sapiente ipsum magnam iusto esse autem illum repudiandae assumenda quidem. Qui ex sapiente officia iure in harum, autem consectetur rerum quisquam delectus corrupti inventore facilis temporibus iusto corporis tempore reprehenderit quaerat excepturi!', 
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste non, ratione dolores repellat officia ab eum saepe sapiente ipsum magnam iusto esse autem illum repudiandae assumenda quidem.',
+      'Omnis iste non, ratione dolores repellat officia ab eum saepe sapiente ipsum magnam iusto esse autem illum repudiandae assumenda quidem. Qui ex sapiente officia iure in harum, autem consectetur rerum quisquam delectus corrupti inventore facilis temporibus iusto corporis tempore reprehenderit quaerat excepturi!'
+      ],
     link: "/blog/post",
   },
   {
@@ -41,6 +46,11 @@ export const blogPosts: BlogPostI[] = [
       date: "21 July 2021",
       avatarSrc: "../assets/construction-blog-post-avatar.png",
     },
+    content: [
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste non, ratione dolores repellat officia ab eum saepe sapiente ipsum magnam iusto esse autem illum repudiandae assumenda quidem. Qui ex sapiente officia iure in harum, autem consectetur rerum quisquam delectus corrupti inventore facilis temporibus iusto corporis tempore reprehenderit quaerat excepturi!', 
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste non, ratione dolores repellat officia ab eum saepe sapiente ipsum magnam iusto esse autem illum repudiandae assumenda quidem.',
+      'Omnis iste non, ratione dolores repellat officia ab eum saepe sapiente ipsum magnam iusto esse autem illum repudiandae assumenda quidem. Qui ex sapiente officia iure in harum, autem consectetur rerum quisquam delectus corrupti inventore facilis temporibus iusto corporis tempore reprehenderit quaerat excepturi!'
+      ],
     link: "/blog/post",
   },
   {
@@ -54,6 +64,11 @@ export const blogPosts: BlogPostI[] = [
       date: "21 July 2021",
       avatarSrc: "../assets/construction-blog-post-avatar.png",
     },
+    content: [
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste non, ratione dolores repellat officia ab eum saepe sapiente ipsum magnam iusto esse autem illum repudiandae assumenda quidem. Qui ex sapiente officia iure in harum, autem consectetur rerum quisquam delectus corrupti inventore facilis temporibus iusto corporis tempore reprehenderit quaerat excepturi!', 
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste non, ratione dolores repellat officia ab eum saepe sapiente ipsum magnam iusto esse autem illum repudiandae assumenda quidem.',
+      'Omnis iste non, ratione dolores repellat officia ab eum saepe sapiente ipsum magnam iusto esse autem illum repudiandae assumenda quidem. Qui ex sapiente officia iure in harum, autem consectetur rerum quisquam delectus corrupti inventore facilis temporibus iusto corporis tempore reprehenderit quaerat excepturi!'
+      ],
     link: "/blog/post",
   },
   {
@@ -67,6 +82,11 @@ export const blogPosts: BlogPostI[] = [
       date: "21 July 2021",
       avatarSrc: "../assets/construction-blog-post-avatar.png",
     },
+    content: [
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste non, ratione dolores repellat officia ab eum saepe sapiente ipsum magnam iusto esse autem illum repudiandae assumenda quidem. Qui ex sapiente officia iure in harum, autem consectetur rerum quisquam delectus corrupti inventore facilis temporibus iusto corporis tempore reprehenderit quaerat excepturi!', 
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste non, ratione dolores repellat officia ab eum saepe sapiente ipsum magnam iusto esse autem illum repudiandae assumenda quidem.',
+      'Omnis iste non, ratione dolores repellat officia ab eum saepe sapiente ipsum magnam iusto esse autem illum repudiandae assumenda quidem. Qui ex sapiente officia iure in harum, autem consectetur rerum quisquam delectus corrupti inventore facilis temporibus iusto corporis tempore reprehenderit quaerat excepturi!'
+      ],
     link: "/blog/post",
   },
   {
@@ -80,6 +100,11 @@ export const blogPosts: BlogPostI[] = [
       date: "21 July 2021",
       avatarSrc: "../assets/construction-blog-post-avatar.png",
     },
+    content: [
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste non, ratione dolores repellat officia ab eum saepe sapiente ipsum magnam iusto esse autem illum repudiandae assumenda quidem. Qui ex sapiente officia iure in harum, autem consectetur rerum quisquam delectus corrupti inventore facilis temporibus iusto corporis tempore reprehenderit quaerat excepturi!', 
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste non, ratione dolores repellat officia ab eum saepe sapiente ipsum magnam iusto esse autem illum repudiandae assumenda quidem.',
+      'Omnis iste non, ratione dolores repellat officia ab eum saepe sapiente ipsum magnam iusto esse autem illum repudiandae assumenda quidem. Qui ex sapiente officia iure in harum, autem consectetur rerum quisquam delectus corrupti inventore facilis temporibus iusto corporis tempore reprehenderit quaerat excepturi!'
+      ],
     link: "/blog/post",
   },
   {
@@ -93,6 +118,11 @@ export const blogPosts: BlogPostI[] = [
       date: "21 July 2021",
       avatarSrc: "../assets/construction-blog-post-avatar.png",
     },
+    content: [
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste non, ratione dolores repellat officia ab eum saepe sapiente ipsum magnam iusto esse autem illum repudiandae assumenda quidem. Qui ex sapiente officia iure in harum, autem consectetur rerum quisquam delectus corrupti inventore facilis temporibus iusto corporis tempore reprehenderit quaerat excepturi!', 
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste non, ratione dolores repellat officia ab eum saepe sapiente ipsum magnam iusto esse autem illum repudiandae assumenda quidem.',
+      'Omnis iste non, ratione dolores repellat officia ab eum saepe sapiente ipsum magnam iusto esse autem illum repudiandae assumenda quidem. Qui ex sapiente officia iure in harum, autem consectetur rerum quisquam delectus corrupti inventore facilis temporibus iusto corporis tempore reprehenderit quaerat excepturi!'
+      ],
     link: "/blog/post",
   },
 ];

@@ -22,8 +22,55 @@ export const ProjectMain: React.FC<ProjectMainI> = ({ project }) => {
     list
   } = project;
 
+  const projectMainStyles = `
+    .post-fields {
+      font-family: Poppins, san-serif;
+    }
+    .post-fields h2.project-title {
+      margin: 0 0 35px;
+      color: #494949;
+      font-size: 1.4rem;
+      font-weight: bold;
+      text-transform: initial;
+    }
+    .post-fields ul {
+      margin-bottom: 40px;
+      padding: 0;
+      padding-right: 80px;
+    }
+    .post-fields ul li {
+      margin-bottom: 15px;
+    }
+    .post-fields ul li strong {
+      margin-right: 10px;
+    }
+    .post-fields .lists {
+      font-size: .9rem;
+    }
+    .project-detail-content {
+      width: 85%;
+      margin: 0 auto;
+    }
+    .project-detail-content ul {
+      font-family: 'Poppins', san-serif;
+      font-size: .9rem;
+    }
+    .project-detail-content ul li {
+      margin-bottom: .8rem;
+    }
+    .project-detail-content ul li:before {
+      content: '';
+      background: #feb500;
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      margin-right: 15px;
+    }
+  `
+
   return (
-    <div className="col-sm-9 mb-3 main-content">
+    <div className="col-lg-9 mb-3 main-content">
+      <style>{projectMainStyles}</style>
       <div className="post-fields">
         <h2 className="project-title">{title}</h2>
         <div className="lists d-flex">

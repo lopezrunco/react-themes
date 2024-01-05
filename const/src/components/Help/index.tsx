@@ -151,7 +151,7 @@ export const Help: React.FC = () => {
   );
 };
 
-const HelpItem: React.FC<HelpI> = ({ imgSrc, title, description, link }) => {
+export const HelpItem: React.FC<HelpI> = ({ imgSrc, title, description, link }) => {
   return (
     <div className="item-help pb-3">
       <div className="mask">

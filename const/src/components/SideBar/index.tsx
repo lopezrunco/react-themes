@@ -7,7 +7,7 @@ import { ContactInfo } from "../ContactInfo";
 
 export const SideBar: React.FC = () => {
   return (
-    <aside className="col-sm-3 sidebar">
+    <aside className="col-lg-3 sidebar">
       <RecentNews items={3} />
       <OurProjects items={4} />
       <Archives />

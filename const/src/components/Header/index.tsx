@@ -111,6 +111,48 @@ export const Header: React.FC = () => {
         background: #feb500;
       }
     }
+
+    @media (min-width: 1400px) {
+      .follow-us-btn {
+        display: block !important;
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-family: 'Poppins', san-serif;
+      }
+      .follow-us-btn:after {
+        content: '';
+        display: block;
+        width: 18px;
+        height: 18px;
+        border: 9px solid transparent;
+        border-right-color: #1f1f1f;
+        position: absolute;
+        top: 0;
+        right: 100%;
+        bottom: 0;
+        margin: auto;
+        -webkit-transition: .3s;
+        transition: .3s;
+        cursor: pointer;
+      }
+      .follow-us-btn a {
+        padding: 14px 48px;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 20px;
+        text-align: center;
+        background-color: #101010;
+        color: white;
+        -webkit-transition: .3s;
+        transition: .3s;
+      }
+      .follow-us-btn a:hover {
+        background-color: #ff6a00;
+        text-decoration: none;
+      }
+    }
   `;
 
   return (

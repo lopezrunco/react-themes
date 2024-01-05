@@ -9,6 +9,10 @@ export const Archives: React.FC = () => {
       font-size: 10px;
       margin-right: 10px;
     }
+    .archives-widget li {
+      margin-bottom: 1rem;
+      font-size: .9rem;
+    }
   `
 
   return (
