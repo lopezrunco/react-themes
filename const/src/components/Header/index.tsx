@@ -5,7 +5,7 @@ import {
   socialMediaItems,
 } from "../../config/socialMediaItems";
 
-const logoImgUrl = "./assets/logo-construction.png";
+const logoImgUrl = "../assets/logo-construction.png";
 
 export const Header: React.FC = () => {
   const headerStyles = `

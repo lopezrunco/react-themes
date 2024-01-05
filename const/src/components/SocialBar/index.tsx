@@ -20,20 +20,19 @@ export const SocialBar: React.FC = () => {
 
 	return (
 		<React.Fragment>
-		<style>{socialBarStyles}</style>
+			<style>{socialBarStyles}</style>
 	      {/* social mobile */}
 	      <div className="row">
 	        <div className="d-sm-none col social-box-mobile">
 	          <ul className="social-top list-unstyled">
-		        socialMediaItems.map((el, i) => {
+		          {socialMediaItems.map((el, i) => {
 		          	return (
-		            	<li className="d-inline-block mr-3">
+		            	<li key={i} className="d-inline-block mr-3">
 			              <a href={el.link}>
 			                <i className={el.iconClass} aria-hidden="true"></i>
 			              </a>
 			            </li>
-		          	)
-		        })}
+		          	)})}
 	          </ul>
 	        </div>
 	      </div>
@@ -44,7 +43,7 @@ export const SocialBar: React.FC = () => {
 	          <ul className="social-top-desk list-unstyled justify-content-end">
 	      		{socialMediaItems.map((el, i) => {
 		          	return (
-			            <li className="d-inline-block mr-3 pr-4 border-dark border-right">
+			            <li key={i} className="d-inline-block mr-3 pr-4 border-dark border-right">
 			              <a href={el.link}>
 			                <i className={`mr-2 ${el.iconClass}`} aria-hidden="true"></i>
 			                {el.name}

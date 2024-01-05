@@ -135,7 +135,7 @@ export const Footer: React.FC = () => {
           <div className="col-md-6 col-lg-3 pb-5 bottom-2">
             <h3 className="mb-4">Our Projects</h3>
             <ul className="list-unstyled">
-              {projects.slice(0, 5).map((project, i) => {
+              {projects.slice(0, 2).map((project, i) => {
                 return (
                   <li key={i}>
                     <a href={project.link}>{project.title}</a>
