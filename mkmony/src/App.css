@@ -446,43 +446,6 @@ a:hover {
 
 /* MAIN ---------------------------------------------------------------------------------------------------------- */
 
-/* about ---------------------------------------------------------------------------------------------------------- */
-
-#about .quote {
-  position: absolute;
-  left: 200px;
-  bottom: -57px;
-  width: 356px;
-  letter-spacing: 1.5px;
-  padding: 35px 50px 10px;
-  background-color: #3f9f42;
-  color: #fff;
-}
-
-#about .quote p {
-  font-size: 20px;
-  line-height: 36px;
-  letter-spacing: 0;
-  font-weight: 400;
-}
-
-
-#about .fa-quote-left {
-  font-size: 80px;
-  position: absolute;
-  top: 10px;
-  left: -50px;
-}
-
-#about .about {
-  padding-left: 80px;
-}
-
-.bor-bott {
-  border-bottom: 1px solid #f3f1f1;
-  margin-top: 37px;
-}
-
 /* habilities -----------------------------------------------------------------------------------------------------*/
 
 #habilities i {
@@ -1633,24 +1596,6 @@ a:hover {
   /* INDEX.HTML CSS ---------------------------------------------------------------------------------------------------------- */
 
   /* MAIN ---------------------------------------------------------------------------------------------------------- */
-
-  /* about ---------------------------------------------------------------------------------------------------------- */
-
-  #about {
-    padding-bottom: 0px;
-  }
-
-  #about .about {
-    padding-left: 10px;
-  }
-
-  #about .image-quote img {
-    margin-bottom: 20px;
-  }
-
-  #about .quote {
-    display: none;
-  }
 
   /* habilities ---------------------------------------------------------------------------------------------------------- */
 
