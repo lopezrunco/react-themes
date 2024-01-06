@@ -96,7 +96,7 @@ export const ProjectsIntro: React.FC<ProjectsIntroProps> = ({ items }) => {
 					    const bgImgStyle = {background: `url(${el.imgSrc})`};
 	            		
 	            		return (
-			                <div className="wrapper col-md-4">
+			                <div key={i} className="wrapper col-md-4">
 			                    <div className="case-box" style={bgImgStyle}>
 			                        <div className="opacity-fx">
 			                            <span>{el.category}</span>

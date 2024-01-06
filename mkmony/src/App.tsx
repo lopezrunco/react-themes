@@ -9,6 +9,8 @@ import { Contact } from "./pages/Contact";
 
 import { Header } from "./components/Header"
 import { Footer } from "./components/Footer"
+import { ScrollToTop } from "./components/ScrollToTop"
+import { MobileMenu } from "./components/MobileMenu"
 
 import './App.css';
 
@@ -27,6 +29,8 @@ const App: React.FC = () => {
         </Routes>
       </BrowserRouter>
       <Footer />
+      <ScrollToTop />
+      <MobileMenu />
     </div>
   );
 }

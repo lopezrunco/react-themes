@@ -59,7 +59,7 @@ export const Skills: React.FC = () => {
             <article className="content-wrap">
                 <div className="row">
                 	{skills.map((el, i) => (
-	                    <div className="box col-md-3">
+	                    <div key={i} className="box col-md-3">
 	                        <i className={el.iconClassName}></i>
 	                        <h6>{el.title}</h6>
 	                        <p>{el.description}</p>

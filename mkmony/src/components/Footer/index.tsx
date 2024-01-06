@@ -93,18 +93,18 @@ export const Footer: React.FC = () => {
                     </div>
                     <div className="footer-box col-lg-3">
                     	{locations.map((el, i) => (
-                    		<React.Fragment>
+                    		<div key={i}>
                                 <h4>{el.title}</h4>
                                 <p>{el.location}</p>                          
-                    		</React.Fragment>
+                    		</div>
                     	))}
                     </div>
                     <div className="footer-box col-lg-3">
                         <h4>Follow us</h4>
                         {social.map((el, i) => (
-                            <React.Fragment>                            
+                            <div key={i}>                            
                                 <a key={i} href={el.link}><i className={el.iconClass}></i><span>{el.title}</span></a><br />
-                            </React.Fragment>
+                            </div>
                         ))}
                     </div>
                     <div className="footer-box col-lg-3">
