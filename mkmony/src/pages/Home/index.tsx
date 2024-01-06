@@ -5,6 +5,7 @@ import { AboutIntro } from "../../components/AboutIntro"
 import { Skills } from "../../components/Skills"
 import { Quote } from "../../components/Quote"
 import { ServicesIntro } from "../../components/ServicesIntro"
+import { ProjectsIntro } from "../../components/ProjectsIntro"
 
 export const Home: React.FC = () => {
 	return (
@@ -14,6 +15,7 @@ export const Home: React.FC = () => {
 			<Skills />
 			<Quote />
 			<ServicesIntro items={6} />
+			<ProjectsIntro items={3} />
 		</React.Fragment>
 	)
 }
