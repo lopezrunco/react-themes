@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300;500&family=Nunito:wght@200;400;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <!-- Bootstrap CS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <!-- Media queries CSS -->
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Favicon -->
+    <link href="./assets/favicon.png" rel="shortcut icon" />
+    <title>MkMony theme</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <!-- Jquery -->
+    <!-- Scroll to top -->
+    <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('.scroll_To_Top').fadeIn();
+                } else {
+                    $('.scroll_To_Top').fadeOut();
+                }
+            });
+            $('.scroll_To_Top').click(function () {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 700);
+                return false;
+            });
+        });
+    </script>
+
+    <!-- Scroll to anchor link -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+    <!-- Mobile menu -->
+    <script>
+        $("#btn-menu").click(function () {
+            $("#menu").slideToggle();
+        });
+
+        $("#close").click(function () {
+            $("#menu").slideToggle();
+        });
+
+        $("#menu a").click(function () {
+            $("#menu").slideToggle();
+        });
+    </script>
+  </body>
+</html>

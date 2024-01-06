@@ -3,6 +3,8 @@
 **/dist-ssr
 *.local
 **/assets
+**/static
+./agever
 
 # Editor directories and files
 .vscode/*
