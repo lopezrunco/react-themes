@@ -782,61 +782,6 @@ a:hover {
   position: absolute;
 }
 
-/* FOOTER -----------------------------------------------------------------------------------------------------*/
-
-footer {
-  padding: 70px 0px;
-  background: #3d3d3d;
-  line-height: 20px;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: 'Fira Sans';
-  line-height: 20px;
-  font-size: 14px;
-  color: rgba(255, 255, 255, .5);
-}
-
-footer .footer-box {
-  padding-right: 50px;
-}
-
-footer .footer-box:last-child {
-  padding-right: 0px;
-}
-
-footer .footer-box img {
-  margin-bottom: 20px;
-}
-
-footer h4 {
-  margin-bottom: 10px;
-  color: #fff;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-}
-
-footer .footer-box a,
-footer .footer-box span {
-  color: rgba(255, 255, 255, .5);
-  font-size: 14px;
-  font-weight: 300;
-}
-
-footer .footer-box i {
-  margin-right: 20px;
-}
-
-footer .footer-box span {
-  display: inline-block;
-  transition: ease-in-out .25s;
-}
-
-footer .footer-box a:hover,
-footer .footer-box span:hover {
-  color: #fff;
-}
-
 
 /* GO TO TOP -----------------------------------------------------------------------------------------------------*/
 
@@ -1799,25 +1744,7 @@ footer .footer-box span:hover {
     margin-top: 20px;
   }
 
-  /* FOOTER ---------------------------------------------------------------------------------------------------------- */
-
-  footer {
-    padding-bottom: 0px;
-  }
-
-  footer,
-  footer h4 {
-    text-align: center;
-  }
-
-  footer .footer-box {
-    padding: 0 20px 30px;
-  }
-
-  footer .footer-box:last-child {
-    padding-right: 20px;
-  }
-
+  
   /* ABOUT.HTML CSS ---------------------------------------------------------------------------------------------------------- */
 
   /* about-1 ---------------------------------------------------------------------------------------------------------- */

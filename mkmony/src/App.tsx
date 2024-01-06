@@ -7,9 +7,11 @@ import { Services } from "./pages/Services";
 import { Portfolio } from "./pages/Portfolio";
 import { Contact } from "./pages/Contact";
 
+import { Header } from "./components/Header"
+import { Footer } from "./components/Footer"
+
 import './App.css';
 
-import { Header } from "./components/Header"
 
 const App: React.FC = () => {
   return (
@@ -24,6 +26,7 @@ const App: React.FC = () => {
           <Route path="/contact" Component={Contact} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }

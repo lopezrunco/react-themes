@@ -7,6 +7,17 @@ interface ContactInfoI {
   link: string;
 }
 
+interface LocationsI {
+  title: string;
+  location: string;
+}
+
+interface SocialItemsI {
+  title: string;
+  iconClass: string;
+  link: string;
+}
+
 export const contactInfo: ContactInfoI[] = [
   {
     id: 1,
@@ -32,12 +43,16 @@ export const contactInfo: ContactInfoI[] = [
     icon: "fa fa-clock-o",
     link: "#",
   },
-  {
-    id: 4,
-    name: "directions",
-    text: "Directions",
-    content: "San Francisco, USA",
-    icon: "fa fa-map-marker",
-    link: "#",
-  },
 ];
+
+export const locations: LocationsI[] = [
+  {title: "New York", location: "13th Street. 47 W 13th St, NY 10011 +1 646-610-5000"},
+  {title: "Kansas City", location: "Sherwood St. Sacramento, CA 95823 +1 408-277-8900"}
+]
+
+export const social: SocialItemsI[] = [
+  {title: "Facebook", iconClass: "fab fa-facebook-square", link: "#"},
+  {title: "Twitter", iconClass: "fab fa-twitter", link: "#"},
+  {title: "Youtube", iconClass: "fab fa-youtube", link: "#"},
+  {title: "Instagram", iconClass: "fab fa-instagram", link: "#"},
+]
