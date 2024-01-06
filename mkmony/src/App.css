@@ -446,44 +446,6 @@ a:hover {
 
 /* MAIN ---------------------------------------------------------------------------------------------------------- */
 
-/* habilities -----------------------------------------------------------------------------------------------------*/
-
-#habilities i {
-  margin-bottom: 20px;
-  color: #3f9f42;
-  font-size: 60px;
-  transition: ease-in-out .25s;
-  cursor: pointer;
-}
-
-#habilities i:hover {
-  opacity: .8;
-}
-
-#habilities .box {
-  padding: 0px 20px;
-}
-
-#habilities .box h6 {
-  color: #1c1d1b;
-  font-weight: 700;
-}
-
-#habilities .box p {
-  font-size: 15px;
-  color: #999999;
-  line-height: 20px;
-}
-
-#habilities .box a {
-  border-bottom: 2px solid #3f9f4282;
-  padding-bottom: 5px;
-  transition: ease-in-out .25;
-}
-
-#habilities .box a:hover {
-  border-bottom: 2px solid #3f9f42;
-}
 
 /* quote -----------------------------------------------------------------------------------------------------*/
 
@@ -1597,16 +1559,6 @@ a:hover {
 
   /* MAIN ---------------------------------------------------------------------------------------------------------- */
 
-  /* habilities ---------------------------------------------------------------------------------------------------------- */
-
-  #habilities,
-  #habilities h6 {
-    text-align: center;
-  }
-
-  #habilities .box {
-    padding: 0px 20px 50px;
-  }
 
   /* quote ---------------------------------------------------------------------------------------------------------- */
 
