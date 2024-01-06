@@ -1,6 +1,7 @@
 interface siteInfoI {
   credits: string;
   copyright: string;
+  corporateVideoSrc: string;
 }
 
 interface siteQuoteI {
@@ -12,7 +13,8 @@ interface siteQuoteI {
 
 export const siteInfo: siteInfoI = {
   credits: "MKmony Theme by lopezrunco.",
-  copyright: "All rights reserved"
+  copyright: "All rights reserved",
+  corporateVideoSrc: "./assets/example-video.mp4"
 };
 
 export const siteQuote: siteQuoteI = {
