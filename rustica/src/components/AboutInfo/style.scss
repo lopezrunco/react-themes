@@ -1,0 +1,24 @@
+@import '../../Variables.scss';
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+
+  .logo {
+    width: 100%;
+  }
+
+  p {
+    font-size: 20px;
+    color: $dark20-text-color;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .about-info {
+    margin-bottom: 60px;
+  }
+}

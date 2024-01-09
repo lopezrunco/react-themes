@@ -1,0 +1,32 @@
+@import '../../Variables.scss';
+
+.empty-list {
+    .img-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .text-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .empty-list {
+        .text-col {
+            gap: 20px;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}

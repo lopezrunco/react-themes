@@ -1,0 +1,12 @@
+@import '../../Variables.scss';
+
+.background-shape {
+  position: absolute;
+  width: 76%;
+  top: 0px;
+  left: 0px;
+  height: 90vh;
+  background-color: $background-shape-color;
+  clip-path: polygon(100% 0%, 81% 86%, 0% 100%, 0% 0%);
+  z-index: -1;
+}

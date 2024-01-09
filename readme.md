@@ -12,9 +12,9 @@ Feel free to explore, use, and contribute to this collection of themes to enhanc
 
 ## Projects included
 
-- [X] const
-- [X] mkmony
-- [ ] agever
+- [X] const theme
+- [X] mkmony theme
+- [X] rustica theme
 
 ## Getting Started
 

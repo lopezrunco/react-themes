@@ -1,0 +1,43 @@
+@import "../../../Variables.scss";
+
+.blog-item-wrapper {
+  margin-bottom: 2rem;
+  
+  .flex {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    img {
+      width: 100%;
+      border-radius: $border-radius;
+      opacity: 1;
+      transition: $main-transition;
+    }
+
+    h5 {
+      color: $secondary-color;
+      margin-bottom: 0;
+    }
+
+    .blog-item-desc {
+      position: relative;
+      max-height: 100px;
+      overflow: hidden;
+      padding-right: 0 1rem;
+
+      &::before {
+        position: absolute;
+        content: "...";
+        bottom: 0;
+        right: 0;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  &:hover img {
+    opacity: 0.7;
+  }
+}

@@ -1,0 +1,25 @@
+@import '../../Variables.scss';
+
+.contact-form form input[type="text"],
+.contact-form form input[type="email"],
+.contact-form form input[type="tel"],
+.contact-form form textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: transparent;
+  color: #a0a4a9;
+  padding: 20px 25px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-family: "Poppins";
+  line-height: 1.6;
+  vertical-align: middle;
+  outline: none;
+}
+
+.contact-form form input[type="submit"] {
+  border: none;
+  color: $text-color;
+  outline: none;
+}

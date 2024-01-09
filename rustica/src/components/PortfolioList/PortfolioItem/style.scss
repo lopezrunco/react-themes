@@ -1,0 +1,21 @@
+@import '../../../Variables.scss';
+
+.blog-item-wrapper {
+    margin-bottom: 2rem;
+    
+    .portfolio-item-cover {
+        overflow: hidden;
+        width: 100%;
+        border-radius: $border-radius;
+        margin-bottom: 1rem;
+        transition: $main-transition;
+    }
+
+    h4 {
+        color: $primary-color;
+    }
+
+    h6 {
+        color: $secondary-color;
+    }
+}

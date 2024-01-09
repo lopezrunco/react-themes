@@ -1,0 +1,120 @@
+@import 'Variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: $selection-color;
+}
+
+ul li {
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1d1b1b;
+  color: $text-color;
+}
+
+a {
+  color: $text-color;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+}
+
+.primary-button {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 35px;
+  background-color: $primary-color;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: $main-transition;
+  width: auto;
+
+  &:hover {
+    background-color: $secondary-color;
+  }
+}
+
+main .container {
+  background-color: $dark-background-color;
+  border-radius: 10px;
+  padding: 80px;
+  transition: $main-transition;
+}
+
+.subtitle {
+  font-size: 21px;
+  color: $primary-color;
+  font-weight: 700;
+}
+
+.category {
+  font-size: 16px;
+  color: $primary-color;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.separator {
+  width: 100px;
+  height: 5px;
+  display: block;
+  background-color: $primary-color;
+  margin: 1rem 0;
+  border-radius: 10px;
+}
+
+h3 {
+  font-size: 35px;
+  color: $text-color;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 25px;
+  color: $text-color;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 19px;
+  color: $text-color;
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+  color: $dark20-text-color;
+}
+
+p.large {
+  font-size: 19px;
+  color: $dark10-text-color;
+}
+
+@media screen and (max-width: 576px) {
+  main .container{
+    padding: 40px;
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  main .container{
+    padding: 20px;
+  }
+}

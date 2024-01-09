@@ -1,0 +1,31 @@
+@import "../../Variables.scss";
+
+.play-video {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  .icon {
+    background-color: $secondary-color;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid #b47500;
+    transition: $main-transition;
+
+    &:hover {
+      border: 10px solid #cf8a08;
+    }
+  }
+
+  .text {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,64 @@
+@import "../../Variables.scss";
+
+.testimonial-item {
+  background-color: $background-color-news;
+  border-radius: 10px;
+  padding: 50px;
+  margin-bottom: 25px;
+
+  blockquote {
+    font-size: 19px;
+    font-style: italic;
+    color: $dark20-text-color;
+    margin-bottom: 30px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    .author-info {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+
+      .icon {
+        color: $secondary-color;
+        font-size: 40px;
+      }
+
+      .author {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        h5,
+        span {
+          margin-bottom: 0;
+        }
+
+        span {
+          color: $dark20-text-color;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .testimonial-item {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 386px) {
+  .testimonial-item {
+    padding: 30px;
+  }
+}

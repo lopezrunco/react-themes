@@ -1,0 +1,106 @@
+@import "../../Variables.scss";
+
+header {
+  padding-top: 20px;
+
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0;
+
+    li {
+      background-color: $dark-background-color;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: $main-transition;
+      overflow: hidden;
+      width: 70px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      transition: $main-transition;
+
+      &:hover {
+        width: 200px;
+      }
+
+      span {
+        color: $text-color;
+        font-weight: 700;
+      }
+
+      a.nav-link {
+        font-size: 16px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        transition: $main-transition;
+        padding: 25px;
+
+        &.active {
+          width: 200px;
+          background-color: $primary-color;
+  
+          i {
+            color: $text-color;
+          }
+        }
+
+        i {
+          font-size: 20px;
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header-container .primary-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header nav {
+    width: 100%;
+
+    ul {
+      flex-direction: column;
+
+      li {
+        gap: 20px;
+
+        a {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  header nav ul li,
+  header nav ul li:hover,
+  header nav ul li a.nav-link.active {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header nav {
+    width: 98%;
+    margin: 0 auto;
+  }
+}

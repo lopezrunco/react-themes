@@ -1,0 +1,26 @@
+@import '../../Variables.scss';
+
+.blog-item {
+    .blog-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 2rem;
+
+        .go-back {
+            color: $secondary-color;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 1rem;
+            font-size: 1rem;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+    }
+}

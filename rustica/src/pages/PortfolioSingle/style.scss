@@ -1,0 +1,27 @@
+@import '../../Variables.scss';
+
+.portfolio-item {
+    .blog-wrapper {
+
+        .go-back {
+            color: $secondary-color;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 1rem;
+            font-size: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+
+        h5 {
+            color: $primary-color;
+        }
+    }
+}
