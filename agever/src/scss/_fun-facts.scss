@@ -1,0 +1,24 @@
+// Fun facts (Used in about.html)
+
+section#fun-facts {
+    text-align: center;
+
+    h2,
+    h4 {
+        color: $color5;
+    }
+
+    h4 {
+        margin: 10px 0 31px 0;
+    }
+
+    span {
+        color: $color1;
+        font-size: 40px;
+        font-weight: $p-weight;
+    }
+
+    .numbers-list {
+        margin-top: 30px;
+    }
+}

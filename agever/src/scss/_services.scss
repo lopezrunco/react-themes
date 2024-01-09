@@ -1,0 +1,27 @@
+// Services (aplicated in pages: home & services)
+
+#services {
+    text-align: center;
+    font-family: $baseFont;
+
+    div {
+        margin: 35px 0;
+    }
+
+    i {
+        margin-bottom: 30px;
+        color: $color1;
+        font-size: 3.5em;
+    }
+
+}
+
+// Media queries (More than width 576px)
+
+@media only screen and (min-width: 576px) {
+
+    #services div {
+        margin: 5px 0;
+    }
+
+}

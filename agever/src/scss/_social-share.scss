@@ -1,0 +1,16 @@
+// Social share (Used on service-detail.html)
+
+ul.social-share li {
+    margin-right: 25px;
+    display: inline-block;
+    border: none;
+    font-size: 30px;
+
+    a {
+        color: $color1;
+
+        &:hover {
+            opacity: .8;
+        }
+    }
+}

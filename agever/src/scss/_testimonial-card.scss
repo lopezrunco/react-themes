@@ -1,0 +1,32 @@
+// Testimonial card (Used in about.html)
+
+.testimonial-card {
+    background: #e5e5e5;
+    border-radius: 2px;
+    padding: 25px 15px;
+    margin: 15px;
+    text-align: center;
+
+    &:hover {
+        background: $color1;
+
+        h4,
+        p,
+        i {
+            color: #fff;
+        }
+    }
+
+    img {
+        border-radius: 50%;
+    }
+
+    li {
+        display: inline-block;
+
+        a {
+            color: $color1;
+        }
+
+    }
+}

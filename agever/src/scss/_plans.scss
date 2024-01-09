@@ -1,0 +1,80 @@
+// Plans (aplicated in pages: home, pricing)
+
+#plans {
+    background: $darkBGcolor;
+    text-align: center;
+
+    h2 {
+        color: #fff;
+    }
+
+    .price-card {
+        margin: 30px 0;
+        border-radius: 2px;
+        padding: 35px;
+        background: $cardBGColor;
+        color: $color4;
+        transition: ease-in-out .50s;
+
+        i,
+        span.price,
+        .btn,
+        .btn-primary,
+        a {
+            transition: ease-in-out .50s;
+        }
+
+        &:hover {
+            transform: translate(0, -15px);
+            background: $color1;
+            color: #fff;
+
+            i,
+            span.price {
+                color: #fff;
+            }
+
+            .btn-primary {
+                border: 1px solid #cccccc3d;
+            }
+        }
+
+        .icon {
+            color: $color1;
+            font-size: 3em;
+            margin-bottom: 30px;
+        }
+
+        h4 {
+            color: #fff;
+        }
+
+        .price {
+            color: $color1;
+            font-weight: 600;
+            font-size: 2.8em;
+            border: 1px solid #cccccc3d;
+            border-radius: 100px;
+            padding: 0px 70px;
+        }
+    }
+}
+
+.price-card ul {
+    margin: 30px 0 0;
+    text-align: left;
+
+    li {
+        border-bottom: 1px solid #cccccc3d;
+        padding: 15px 0;
+
+
+        i {
+            color: #cccccc3d;
+            ;
+            font-size: 1em;
+            float: right;
+        }
+    }
+
+}

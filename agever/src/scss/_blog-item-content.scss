@@ -1,0 +1,226 @@
+// Blog item content styles (Used on blogitem.html)
+
+// Main content
+
+section#blog-item-main-content {
+
+    article {
+        padding-bottom: 0;
+    }
+
+    .img-wrapper {
+        overflow: hidden;
+        margin-bottom: 30px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .post-date {
+        margin: 30px 10px 50px;
+        border-left: 5px solid $color4;
+        padding: 30px;
+        background: $dateBGcolor;
+
+        a {
+            color: $color1;
+        }
+    }
+}
+
+// Secondary content
+
+#blog-item-secondary-content {
+    .author {
+        border-bottom: 1px solid $color6;
+
+        .img-wrapper {
+            overflow: hidden;
+            width: 100px;
+            height: 100px;
+            border-radius: 5px;
+
+            img {
+                width: 100%;
+                transition: ease-in-out .20s;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        .author-info {
+            margin-top: 10px;
+        }
+    }
+
+    .item-blog-info {
+        margin: 20px 0 40px;
+        color: $color6;
+
+        i,
+        p {
+            display: inline-block;
+            margin-bottom: 0;
+        }
+
+        i {
+            margin-right: 10px;
+        }
+
+        .blog-category {
+            display: inline-block;
+            padding: 5px 15px;
+            border: 1px solid $color1;
+            border-radius: 2px;
+            color: $color1;
+            transition: ease-in-out .25s;
+
+            &:hover {
+                background: $color1;
+                color: #fff;
+            }
+        }
+    }
+
+    .categories {
+        margin-bottom: 40px;
+        color: $color6;
+
+        ul.list li {
+            padding: 18px 0;
+            border-bottom: 1px solid #ccc;
+
+            a {
+                color: $color6;
+
+                &:hover {
+                    color: $color1;
+                }
+            }
+
+            span.circle {
+                float: right;
+                background: $dateBGcolor;
+                padding: 7px;
+                border-radius: 50%;
+                font-size: 12px;
+            }
+
+
+        }
+
+        ul.list li:last-child {
+            border-bottom: none;
+        }
+    }
+
+    .tags {
+        margin-bottom: 40px;
+
+        a {
+            display: inline-block;
+            color: $color1;
+            margin: 5px;
+            padding: 12px 20px;
+            border: 1px solid $color4;
+            border-radius: 2px;
+
+            &:hover {
+                background: $color1;
+                color: #fff;
+                border: 1px solid $color1;
+            }
+        }
+    }
+
+    .share-list {
+        margin-bottom: 40px;
+
+        li {
+            display: inline-block;
+            margin-right: 30px;
+            font-size: 20px;
+
+            a {
+                color: $color1;
+
+                &:hover {
+                    opacity: .8;
+                }
+            }
+        }
+
+        li:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .gallery {
+        .img-wrapper {
+            overflow: hidden;
+            width: 150px;
+            height: 150px;
+            margin: 15px 0;
+
+            img {
+                width: 100%;
+                border-radius: 5px;
+                transition: ease-in-out .25s;
+
+                &:hover {
+                    opacity: .8;
+                }
+            }
+        }
+    }
+}
+
+
+// Media queries (More than width 576px)
+
+@media only screen and (min-width: 576px) {
+
+    #blog-item-secondary-content {
+
+        .item-blog-info .blog-category {
+            position: absolute;
+            right: 20px;
+        }
+
+        .share-list li {
+            display: inline-block;
+            margin-right: 30px;
+            font-size: 30px;
+        }
+
+        .gallery {
+            display: none;
+        }
+
+    }
+
+    #recent-posts .item-wrapper {
+        margin: 10px 0;
+        min-height: 450px;
+
+        [class*='img-wrapper'] {
+            // Partial selector of css classes ".img-wrapper-1, .img-wrapper-1, etc"
+            min-height: 450px;
+        }
+    }
+
+}
+
+
+// Media queries (More than width 1200px)
+
+@media only screen and (min-width: 1200px) {
+
+    #blog-item-secondary-content .gallery {
+        display: block;
+    }
+
+}

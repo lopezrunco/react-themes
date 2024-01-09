@@ -1,0 +1,170 @@
+// Form styles (Used on services.html)
+
+form {
+    margin-bottom: 30px;
+
+    input {
+        width: 90%;
+        padding: 10px 5%;
+        margin: 10px 0;
+        background: $color5;
+        border-radius: 2px;
+        border: 1px solid $color1;
+        font-family: 'Poppins';
+        font-size: 17px;
+        color: $p-color;
+    }
+
+}
+
+form input[type=submit] {
+    width: auto;
+    padding: 10px 40px;
+    margin: 0;
+}
+
+// Newsletter form styles (Used on blog.html)
+
+#newsletter {
+    text-align: center;
+
+    form.subscribe-form input {
+        width: 80%;
+        padding: 10px 5%;
+        margin: 10px 5%;
+        background: #ffffff;
+        border: 1px solid #ccc;
+    }
+
+    form.subscribe-form input[type=submit] {
+        width: 90%;
+        margin: 20px 0;
+        background: $color1;
+        color: $color5;
+        transition: ease-in-out .25s;
+
+        &:hover {
+            background: darken(#dd1e4b, 10%);
+        }
+    }
+}
+
+// Reply form (Used on blog-item.html)
+
+.reply-form {
+    margin-bottom: 0;
+
+    input {
+        border: 1px solid #ccc;
+    }
+
+    textarea {
+        width: 90%;
+        height: 200px;
+        padding: 10px 5%;
+        border: 1px solid #ccc;
+        background: $color5;
+        font-family: $baseFont;
+        font-size: 17px;
+    }
+
+    input[type=submit] {
+        margin: 20px 0;
+        background: $color1;
+        color: $color5;
+        transition: ease-in-out .25s;
+
+        &:hover {
+            background: darken(#dd1e4b, 10%);
+        }
+    }
+
+}
+
+// Contact form (aplicated in pages: home, contact)
+
+#contact-form {
+    text-align: center;
+
+    .form {
+        padding: 50px 20px 0;
+
+        input,
+        select,
+        textarea {
+            width: 90%;
+            margin: 10px 0;
+            border: 1px solid rgba(0, 0, 0, .25);
+            border-radius: 2px;
+            padding: 10px 15px;
+            font-size: $p-size;
+            font-family: $baseFont;
+            color: $color4;
+            background: #f5f5f5;
+        }
+
+        select {
+            width: 100%;
+            background: #f5f5f5;
+        }
+
+        input[type="button"] {
+            width: auto;
+            background: #dd1e4b;
+            color: #fff;
+            padding: 10px 25px;
+            border-radius: 2px;
+            border: none;
+            margin: 0 0 0 0;
+            text-transform: uppercase;
+
+            &:hover {
+                background: darken(#dd1e4b, 10%);
+            }
+        }
+    }
+}
+
+// Dark form styles (Used on portfolio.html)
+
+#contact-form .dark-form {
+
+    input,
+    select,
+    textarea {
+
+        border: 1px solid $darkBGcolor;
+    }
+
+    input[type="button"] {
+        background: $color1;
+    }
+}
+
+// Media queries (More than width 576px)
+
+@media only screen and (min-width: 576px) {
+
+    #contact-form .form input,
+    #contact-form .form select,
+    #contact-form .form textarea {
+        width: 95%;
+    }
+
+    #contact-form .form select {
+        width: 100%;
+    }
+
+}
+
+// Media queries (More than width 1200px)
+
+@media only screen and (min-width: 1200px) {
+
+    #contact-form .form input,
+    #contact-form .form select,
+    #contact-form .form textarea {
+        padding: 10px 25px;
+    }
+
+}

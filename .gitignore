@@ -4,7 +4,10 @@
 *.local
 **/assets
 **/static
-./agever
+
+# Agever theme
+/agever/src/css
+/agever/src/img
 
 # Editor directories and files
 .vscode/*

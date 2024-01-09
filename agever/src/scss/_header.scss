@@ -1,0 +1,180 @@
+// Header styles
+
+.home-header {
+    background: url(../img/header-bg.jpg) center;
+    background-size: cover;
+}
+
+.about-header,
+.services-header,
+.service-detail,
+.portfolio-header,
+.portfolio-item-header,
+.blog-header,
+.blog-item-header,
+.contact-header {
+    background-size: cover;
+    height: 600px;
+}
+
+.about-header {
+    background: url(../img/bg-4.jpg) center;
+}
+
+.services-header {
+    background: url(../img/bg-9.jpg) center;
+}
+
+.service-detail {
+    background: url(../img/bg-1.jpg) center;
+}
+
+.portfolio-header,
+.portfolio-item-header {
+    background: url(../img/bg-7.jpg) center;
+}
+
+.blog-header,
+.blog-item-header {
+    background: url(../img/bg-5.jpg) center;
+}
+
+.contact-header {
+    background: url(../img/bg-2.jpg) center;
+}
+
+// breadcrumbs
+
+.breadcrumbs ul li {
+    display: inline-block;
+
+    .active {
+        color: $color1;
+    }
+}
+
+// Navbar styles
+
+.nav-bar {
+    position: relative;
+    height: 170px;
+    top: 0;
+    padding: 20px 0;
+
+    .img-logo {
+        width: 135px;
+        float: left;
+    }
+
+    .menu-bar.fa-bars {
+        padding: 0;
+        float: right;
+    }
+}
+
+
+// Menu mobile styles
+
+#menu {
+    background: $primaryBGColor;
+    color: $color3;
+    text-transform: $a-transform;
+
+    #close {
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    ul li {
+        font-family: $baseFont;
+        font-size: $a-size;
+        font-weight: $a-weight;
+
+        a {
+            color: $color3;
+        }
+    }
+
+    i {
+        color: $color3;
+    }
+
+    span {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-family: $baseFont;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+.menu-search i {
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    color: #fff;
+    font-size: $a-size;
+}
+
+// slide
+
+.slide-content {
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+
+    h2 {
+        font-family: $h1-font;
+        font-size: $h1-size;
+        font-weight: $h1-weight;
+        color: $h1-color;
+    }
+
+}
+
+
+// Media queries (More than width 1200px)
+@media only screen and (min-width: 1200px) {
+
+    header {
+        height: 900px;
+
+        .menu-search {
+            display: none;
+        }
+    }
+
+    .main-nav {
+        text-transform: capitalize;
+        padding: 20px 0;
+        font-family: $baseFont;
+
+        a {
+            color: #fff;
+        }
+
+        a.active {
+            color: $color1;
+            border-bottom: 2px solid $color1;
+        }
+
+        a:hover {
+            color: $color1;
+        }
+
+    }
+
+    .slide-content {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        h2 {
+            font-size: 6rem;
+        }
+    }
+
+
+
+}

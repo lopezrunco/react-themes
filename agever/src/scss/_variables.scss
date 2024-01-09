@@ -1,0 +1,111 @@
+// Variables
+
+//Colors
+
+$color1: #dd1e4b;
+$color2: #E0040B;
+$color3: #2f323a;
+$color4: #8e8e8e;
+$color5: #f5f5f5;
+$color6: #6f6f6f;
+
+// Font Family
+
+$baseFont: 'Poppins', sans-serif;
+$altFont: 'Roboto Condensed', sans-serif;
+
+// h1
+
+$h1-font: $baseFont;
+$h1-size: 3.5rem;
+$h1-weight: 900;
+$h1-color: $color1;
+
+// h2
+
+$h2-font: $baseFont;
+$h2-size: 2.4rem;
+$h2-weight: 600;
+$h2-color: $color3;
+
+// h3
+
+$h3-font: $baseFont;
+$h3-size: 3rem;
+$h3-weight: 600;
+$h3-color: $color3;
+
+// h4
+
+$h4-m: 24px 0; // h4 margin
+$h4-font: $baseFont;
+$h4-size: 1.3rem;
+$h4-weight: 600;
+$h4-color: $color3;
+
+// h5
+
+$h5-font: $baseFont;
+$h5-size: 1rem;
+$h5-weight: 900;
+$h5-color: $color1;
+
+// h6
+
+$h6-font: $baseFont;
+$h6-size: 1rem;
+$h6-weight: 900;
+$h6-color: $color1;
+
+// a
+
+$a-font: $baseFont;
+$a-size: 1rem;
+$a-weight: 400;
+$a-color: $color4;
+
+// a nav
+
+$a-font: $baseFont;
+$a-size: 1.8rem;
+$a-weight: 600;
+$a-color: $color5;
+$a-transform: capitalize;
+
+// p
+
+$p-font: $baseFont;
+$p-size: 1rem;
+$p-weight: 600;
+$p-color: $color6;
+$p-transform: capitalize;
+$pline-height: 1.6em;
+
+// Backgrounds
+
+$primaryBGColor: #f5f5f5;
+$secondaryBGColor: #fff;
+$darkBGcolor: #111111;
+$cardBGColor: #191919;
+$bottomBGColor: #191919;
+$footerBGColor: #131313;
+$dateBGcolor: #eeeeee;
+
+
+// Sections & sizes
+
+$content-wrap-width: 90%; // content wrap width 
+$article-p: 90px 0; // article padding
+
+// Buttons
+
+// general button styles
+$btn-p: 15px 25px; // button padding
+$btn-m: 30px 0 0 0; // button margin
+$btn-border-r: 2px; // button border radius
+$btn-ff: $baseFont; // button font family
+$btn-fw: 1rem; // button font weight
+
+// primary button styles
+$primary-btn-bg: $color1;
+$primary-btn-color: #fff;

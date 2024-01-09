@@ -1,0 +1,35 @@
+// Portfolio item styles (Used on portfolio-item.html)
+
+#portfolio-item {
+    color: $color4;
+    text-align: center;
+
+    h2 {
+        color: $color1;
+        font-weight: 800;
+    }
+
+    .img-wrapper {
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+// Media queries (More than width 576px)
+
+@media only screen and (min-width: 576px) {
+
+    #portfolio-item .img-wrapper {
+        height: 500px;
+
+        img {
+            height: 100%;
+            width: auto;
+        }
+    }
+
+}

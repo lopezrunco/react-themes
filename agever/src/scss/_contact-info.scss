@@ -1,0 +1,55 @@
+// Contact info styles (Used on contact.html)
+
+#contact-info {
+    text-align: center;
+
+    .info-card {
+        box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);
+        margin: 30px 10px;
+        padding: 30px 20px;
+
+        i {
+            font-size: 40px;
+            color: $color1
+        }
+
+        h4 a {
+            color: $color3;
+        }
+    }
+}
+
+
+// Media queries (More than width 576px)
+
+@media only screen and (min-width: 576px) {
+
+    #contact-info {
+        .title {
+            text-align: left;
+        }
+
+        .info-card {
+            margin: 30px 0px;
+            padding: 30px 15px;
+            transition: ease-in-out .25s;
+
+            &:hover {
+                background: $color1;
+
+                a,
+                p,
+                i {
+                    color: #fff;
+                }
+            }
+
+            h4 {
+                font-size: 1.1rem;
+            }
+        }
+    }
+
+
+
+}

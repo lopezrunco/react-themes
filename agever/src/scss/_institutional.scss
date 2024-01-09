@@ -1,0 +1,97 @@
+// Institutional (aplicated in pages: home, about)
+
+// Video section
+#institutional {
+    text-align: center;
+    background: $primaryBGColor;
+
+    .inst-video img {
+        width: 100%;
+    }
+
+    .inst-video i {
+        font-size: 4em;
+        color: $color1;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        z-index: 99999;
+        transition: ease-in-out .10s;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+// Content section
+
+#institutional .content {
+    margin-top: 55px;
+
+    .item {
+        margin-bottom: 30px;
+
+        i {
+            font-size: 50px;
+            color: $color1;
+        }
+    }
+}
+
+// Contact section
+
+#contact-form #institutional {
+    display: none;
+}
+
+
+// Media queries (More than width 576px)
+
+@media only screen and (min-width: 576px) {
+
+    #institutional .content {
+        margin-top: 0;
+
+        .item i {
+            font-size: 40px;
+        }
+    }
+
+    #institutional .inst-video {
+        overflow: hidden;
+
+        img {
+            height: 550px;
+            width: auto;
+            transition: ease-in-out .20s;
+
+            &:hover {
+                opacity: .8;
+            }
+        }
+
+    }
+}
+
+// Media queries (More than width 1200px)
+
+@media only screen and (min-width: 1200px) {
+
+    #institutional {
+        .content .item i {
+            font-size: 60px;
+        }
+
+        .inst-video {
+            overflow: hidden;
+            margin: 40px 100px 0;
+        }
+
+    }
+
+    #institutional.institutional-0-margin .inst-video {
+        margin: 0;
+    }
+}

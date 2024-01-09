@@ -1,0 +1,175 @@
+//Import fonts
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;900&display=swap);
+
+// Base styles
+
+#main-wrapper {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.content-wrap {
+  width: 98%;
+  max-width: 1140px;
+  margin: 0 auto;
+  float: none !important;
+  position: relative;
+}
+
+.content-wrap-fluid {
+  width: calc(100% - 30px);
+  max-width: 100%;
+  margin: 0 auto;
+  float: none !important;
+  position: relative;
+}
+
+.main-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  text-indent: -9999em;
+}
+
+header,
+main,
+section,
+article,
+footer {
+  position: relative;
+}
+
+/* header ---------------------------------------------------------------------------------------------------------- */
+
+header {
+  height: 760px;
+}
+
+header .content-wrap {
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0000008c;
+}
+
+.nav-bar {
+  position: relative;
+  height: 130px;
+  top: 15px;
+}
+
+.img-logo {
+  width: 120px;
+}
+
+.fa-bars {
+  display: none;
+}
+
+.nav-bar ul {
+  position: relative;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.main-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-transform: uppercase;
+}
+
+.main-nav li {
+  padding-left: 30px;
+  float: left;
+  -webkit-transition: ease-in-out .2s;
+  -moz-transition: ease-in-out .2s;
+  transition: ease-in-out .2s;
+}
+
+
+
+/* menu mobile -----------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1200px) {
+
+  .main-nav {
+    display: none;
+  }
+
+  .fa-bars {
+    display: block;
+    padding: 0;
+    font-size: 30px;
+    text-align: right;
+    color: #fff;
+  }
+
+}
+
+#menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+}
+
+#menu ul {
+  height: 100%;
+  transform: translateY(30%);
+}
+
+#menu ul li {
+  padding: 15px;
+}
+
+.fa-times {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* go to top -----------------------------------------------------------------------------------------------------*/
+
+.scroll_To_Top {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+  z-index: 1000;
+  display: none;
+}
+
+.fa-caret-square-up {
+  color: #dd1e4b;
+
+  &:hover {
+    color: darken(#dd1e4b, 10%);
+  }
+}
+

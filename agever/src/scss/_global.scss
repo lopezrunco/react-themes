@@ -1,0 +1,179 @@
+// Global styles
+
+// Sections
+
+.content-wrap {
+    width: $content-wrap-width;
+}
+
+main,
+section,
+footer {
+    background: $secondaryBGColor;
+    font-family: $baseFont;
+}
+
+article {
+    padding: $article-p;
+}
+
+section#content,
+section#our-solutions,
+section#contact-form,
+section#blog,
+.blog-item-page,
+section#blog-item-main-content,
+section#blog-item-secondary-content,
+section#contact-info,
+section#form-institutional {
+    background: $primaryBGColor;
+}
+
+section#fun-facts {
+    background: $darkBGcolor;
+}
+
+.main-content {
+    margin-bottom: 60px;
+}
+
+.dark-bg1-section {
+    background: $cardBGColor;
+}
+
+.dark-bg2-section {
+    background: $darkBGcolor;
+}
+
+section.map article {
+    padding: 0;
+}
+
+// Section separator
+
+section#plans::after,
+section#partners::after,
+header.about-header::after,
+header.services-header::after,
+header.service-detail::after,
+header.portfolio-header::after,
+header.portfolio-item-header::after,
+header.blog-header::after,
+header.blog-item-header::after,
+header.contact-header::after {
+    height: 60px;
+    bottom: -30px;
+    content: '';
+    position: absolute;
+    z-index: 2;
+    left: calc(50% - 2.5px);
+    width: 5px;
+    background: $color1;
+}
+
+// Titles
+
+h2 {
+    margin-bottom: 25px;
+    font-size: $h2-size;
+    font-weight: $h2-weight;
+    color: $h2-color;
+}
+
+h2.lowercase {
+    text-transform: capitalize;
+}
+
+h4 {
+    margin: $h4-m;
+    font-size: $h4-size;
+    font-weight: $h4-weight;
+    color: $h4-color;
+}
+
+// Text
+
+p {
+    margin-bottom: 1em;
+    color: $p-color;
+    font-size: $p-size;
+    line-height: $pline-height;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+// Blockquote
+
+blockquote {
+    padding: 16px 24px;
+    color: $color6;
+    margin: 30px 15px;
+    border-left: 5px solid #dcdbdb;
+    font-style: italic;
+    line-height: 20px;
+}
+
+// breadcrumbs
+
+.breadcrumbs {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: $baseFont;
+
+    a {
+        color: $color6;
+    }
+}
+
+// Buttons
+
+.btn {
+    padding: $btn-p;
+    margin: $btn-m;
+    display: inline-block;
+    border-radius: $btn-border-r;
+    font-family: $btn-ff;
+    font-weight: $btn-fw;
+}
+
+.btn-primary {
+    background: $primary-btn-bg;
+    color: $primary-btn-color;
+    transition: ease-in-out .25s;
+
+    &:hover {
+        background: darken(#dd1e4b, 10%);
+      }
+}
+
+.btn-secondary {
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid $color1;
+}
+
+// Content list
+
+ul.content-list {
+    list-style: disc;
+    margin: 20px;
+    color: $p-color;
+
+    li {
+        margin-bottom: 10px;
+    }
+}
+
+// Media queries (More than width 1200px)
+
+@media only screen and (min-width: 1200px) {
+
+    .main-content,
+    #blog-item-main-content {
+        padding-right: 60px;
+    }
+
+}

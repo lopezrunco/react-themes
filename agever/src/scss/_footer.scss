@@ -1,0 +1,21 @@
+// Footer (aplicated in all pages)
+
+footer {
+    padding: 30px 0;
+    background: $footerBGColor;
+    text-align: center;
+
+    p {
+        font-size: .9rem;
+
+        a {
+            display: block;
+            color: $color1;
+            transition: ease-in-out .25s;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}

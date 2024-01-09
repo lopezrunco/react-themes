@@ -1,0 +1,28 @@
+// Import partials
+
+@import 'reset';
+@import 'base-styles';
+@import 'variables';
+@import 'grid';
+
+@import 'global';
+@import 'header';
+@import 'services';
+@import 'institutional';
+@import 'plans';
+@import 'portfolio';
+@import 'partners';
+@import 'bottom';
+@import 'footer';
+@import '_services-icons';
+@import '_testimonial-card.scss';
+@import 'fun-facts';
+@import 'our-solutions';
+@import 'form';
+@import 'social-share';
+@import 'portfolio-grid';
+@import 'content-light-styles';
+@import 'portfolio-item';
+@import 'blog-grid';
+@import 'blog-item-content';
+@import 'contact-info';
