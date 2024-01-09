@@ -595,57 +595,6 @@ a:hover {
   letter-spacing: -2.4px;
 }
 
-/* CONTACT.HTML CSS ---------------------------------------------------------------------------------------------------------- */
-
-
-/* contact-form ---------------------------------------------------------------------------------------------------------- */
-
-#contact-form {
-  margin: 70px 0;
-}
-
-#contact-form h2 {
-  font-size: 44px;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: -2.4px;
-}
-
-#contact-form input,
-#contact-form textarea {
-  border: 1px solid #ccc;
-  padding: 10px 15px;
-  font-family: 'Fira Sans';
-  font-weight: 300;
-}
-
-#contact-form input {
-  margin: 0 10px 30px 10px;
-  width: calc(50% - 20px);
-  float: left;
-}
-
-#contact-form textarea {
-  width: calc(100% - 20px);
-  margin-left: 10px;
-  margin-bottom: 30px;
-  color: #757575;
-}
-
-#contact-form textarea:focus {
-  outline: none;
-}
-
-#contact-form input[type="submit"] {
-  width: auto;
-  padding: 20px 40px;
-  background: #1c1d1b;
-  color: #fff;
-  font-family: 'Fira Sans';
-  font-size: 18px;
-  font-weight: 600;
-}
-
 /* SERVICE-DETAIL.HTML CSS -----------------------------------------------------------------------------------------------------*/
 
 /* MAIN -----------------------------------------------------------------------------------------------------*/
@@ -939,21 +888,6 @@ a:hover {
   h2 {
     margin-bottom: 20px !important;
     font-size: 40px;
-  }
-
-  /* CONTACT.HTML CSS ---------------------------------------------------------------------------------------------------------- */
-
-  /* contact-form ---------------------------------------------------------------------------------------------------------- */
-
-  #contact-form input,
-  #contact-form textarea {
-    width: 100%;
-    margin: 0 0 15px 0;
-    padding: 10px;
-  }
-
-  #contact-form input[type="submit"] {
-    width: 100%;
   }
 
   /* SERVICE-DETAIL.HTML CSS ---------------------------------------------------------------------------------------------------------- */
