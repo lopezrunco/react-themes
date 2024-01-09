@@ -83,7 +83,7 @@ export const Contact: React.FC = () => {
 									<option value="Return Shipments" />
 								</datalist>
 								<textarea name="message" id="message">Your message</textarea>
-								<input type="submit" value="Send a request" src="message-sent.html"></input>
+								<input type="submit" value="Send a request" src="/message-sent"></input>
 							</form>
 						</div>
 					</div>

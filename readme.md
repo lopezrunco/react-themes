@@ -13,7 +13,7 @@ Feel free to explore, use, and contribute to this collection of themes to enhanc
 ## Projects included
 
 - [X] const
-- [ ] mkmony
+- [X] mkmony
 - [ ] agever
 
 ## Getting Started

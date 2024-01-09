@@ -86,8 +86,8 @@ export const Footer: React.FC = () => {
             <div className="content-wrap">
                 <div className="row">
                     <div className="footer-box col-lg-3">
-                        <a href="index.html">
-                            <img src="./assets/logo-footer.png" alt="" />
+                        <a href="/">
+                            <img src="../assets/logo-footer.png" alt="" />
                         </a>
                         <p>© {new Date().getFullYear()}<br />{siteInfo.credits}<br />{siteInfo.copyright}</p>
                     </div>

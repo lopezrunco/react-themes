@@ -111,7 +111,7 @@ export const Header: React.FC = () => {
                 <h1 className="main-logo">Web title</h1>
                 <div className="nav-bar">
                     <div className="img-logo">
-                        <a href="index.html">
+                        <a href="/">
                             <img width="396" src="../assets/logo.png" alt="main logo" />
                         </a>
                     </div>

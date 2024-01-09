@@ -171,7 +171,7 @@ const ServiceItem: React.FC<ServiceItemProps> = ({ service }) => {
 					</div>
 				</a>
 				<div className="service-content">
-					<a className="title" href="service-detail.html">{title}</a>
+					<a className="title" href="#">{title}</a>
 					<p>{description}</p>
 					<a className="link" href={link}>Learn More</a>
 				</div>
