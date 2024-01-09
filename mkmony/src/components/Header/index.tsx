@@ -112,7 +112,7 @@ export const Header: React.FC = () => {
                 <div className="nav-bar">
                     <div className="img-logo">
                         <a href="index.html">
-                            <img width="396" src="./assets/logo.png" alt="main logo" />
+                            <img width="396" src="../assets/logo.png" alt="main logo" />
                         </a>
                     </div>
                     <nav className="main-nav">

@@ -5,6 +5,7 @@ import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Services } from "./pages/Services";
 import { Portfolio } from "./pages/Portfolio";
+import { PortfolioItem } from "./pages/PortfolioItem";
 import { Contact } from "./pages/Contact";
 
 import { Header } from "./components/Header"
@@ -24,6 +25,7 @@ const App: React.FC = () => {
           <Route path="/about" Component={About} />
           <Route path="/services" Component={Services} />
           <Route path="/portfolio" Component={Portfolio} />
+          <Route path="/portfolio/item" Component={PortfolioItem} />
           <Route path="/contact" Component={Contact} />
         </Routes>
       </BrowserRouter>
