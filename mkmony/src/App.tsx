@@ -14,7 +14,6 @@ import { MobileMenu } from "./components/MobileMenu"
 
 import './App.css';
 
-
 const App: React.FC = () => {
   return (
     <div>
