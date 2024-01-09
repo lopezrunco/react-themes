@@ -8,6 +8,7 @@
 # Agever theme
 /agever/src/css
 /agever/src/img
+/agever/public/img
 
 # Editor directories and files
 .vscode/*

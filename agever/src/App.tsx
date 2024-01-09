@@ -11,12 +11,9 @@ import { BlogItem } from "./pages/BlogItem";
 import { PortfolioItem } from "./pages/PortfolioItem";
 import { ServiceItem } from "./pages/ServiceItem";
 
-import { Header } from "./components/Header";
-
 export const App: React.FC = () => {
   return (
     <div>
-      <Header />
       <BrowserRouter>
         <Routes>
           <Route path="/about" Component={About} />
