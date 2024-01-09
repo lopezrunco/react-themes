@@ -5,7 +5,7 @@ import { ServicesAside } from "../../components/ServicesAside"
 
 interface ServiceItemProps {
 	service: ServicesI;
-  }
+}
 
 export const Services: React.FC = () => {
 	const styles = `

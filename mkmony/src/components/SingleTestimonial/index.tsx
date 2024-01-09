@@ -3,7 +3,7 @@ import React from "react"
 import { testimonials } from "../../config/testimonials"
 
 export const SingleTestimonial: React.FC = () => {
-    const { name, position, testimonial } = testimonials[0]
+    const { name, position, testimonial, avatar } = testimonials[0]
 
     const styles = `
         #aside .testimonial .quote {
@@ -95,7 +95,7 @@ export const SingleTestimonial: React.FC = () => {
                 <i className="fas fa-quote-left"></i>
             </div>
             <div className="author">
-                <img src="../assets/staff_3-52x52.jpg" alt="" className="avatar" />
+                <img src={avatar} alt="" className="avatar" />
                 <div className="info">
                     <h6>{name}</h6>
                     <span>{position}</span>
