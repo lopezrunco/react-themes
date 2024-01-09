@@ -1,6 +1,6 @@
 import React from "react";
 
-interface MenuItem {
+export interface MenuItem {
     title: string;
     link: string;
     isActive: boolean;
@@ -11,7 +11,7 @@ interface SocialItem {
     icon: string;
 }
 
-const menuItems: MenuItem[] = [
+export const menuItems: MenuItem[] = [
     { title: 'Home', link: '/', isActive: true },
     { title: 'About', link: '/about', isActive: false },
     { title: 'Services', link: '/services', isActive: false },

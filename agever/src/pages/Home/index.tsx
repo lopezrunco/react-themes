@@ -2,6 +2,11 @@ import React from "react"
 
 import { Nav } from "../../components/Nav"
 import { ServicesResume } from "../../components/ServicesResume";
+import { CorporateVideo } from "../../components/CorporateVideo";
+import { Plans } from "../../components/Plans";
+import { PortfolioResume } from "../../components/PortfolioResume";
+import { Brands } from "../../components/Brands";
+import { QuickContactForm } from "../../components/QuickContactForm";
 
 interface SlideConfig {
     title: string;
@@ -30,6 +35,11 @@ export const Home: React.FC = () => {
             </header>
             <main role="main">
                 <ServicesResume />
+                <CorporateVideo />
+                <Plans />
+                <PortfolioResume />
+                <Brands />
+                <QuickContactForm />
             </main>
         </React.Fragment>
     )

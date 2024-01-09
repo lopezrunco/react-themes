@@ -11,6 +11,11 @@ import { BlogItem } from "./pages/BlogItem";
 import { PortfolioItem } from "./pages/PortfolioItem";
 import { ServiceItem } from "./pages/ServiceItem";
 
+import { Bottom } from "./components/Bottom";
+import { Footer } from "./components/Footer";
+import { GoToTop } from "./components/GoToTop";
+import { MobileMenu } from "./components/MobileMenu";
+
 export const App: React.FC = () => {
   return (
     <div>
@@ -27,6 +32,10 @@ export const App: React.FC = () => {
           <Route path="/" Component={Home} />
         </Routes>
       </BrowserRouter>
+      <Bottom />
+      <Footer />
+      <GoToTop />
+      <MobileMenu />
     </div>
   );
 }

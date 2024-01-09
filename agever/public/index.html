@@ -22,6 +22,61 @@
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
+
+  <!-- SCROLL TO TOP JS ------------------------------------------------------------------------------------------------------------------------------>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+
+  <script>
+    $(document).ready(function () {
+
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+          $('.scroll_To_Top').fadeIn();
+        } else {
+          $('.scroll_To_Top').fadeOut();
+        }
+      });
+
+      $('.scroll_To_Top').click(function () {
+        $('html, body').animate({
+          scrollTop: 0
+        }, 700);
+        return false;
+      });
+
+    });
+  </script>
+
+  <!-- SCROLL TO ANCHOR LINK JS ------------------------------------------------------------------------------------------------------------------------------>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+
+  <!-- MOBILE MENU JS ------------------------------------------------------------------------------------------------------------------------------>
+
+  <script>
+    $("#btn-menu").click(function () {
+      $("#menu").slideToggle();
+    });
+
+    $("#close").click(function () {
+      $("#menu").slideToggle();
+    });
+
+    $("#menu a").click(function () {
+      $("#menu").slideToggle();
+    });
+  </script>
 </body>
 
 </html>
