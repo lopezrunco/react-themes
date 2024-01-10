@@ -15,6 +15,7 @@ Feel free to explore, use, and contribute to this collection of themes to enhanc
 - [X] const theme
 - [X] mkmony theme
 - [X] rustica theme
+- [X] agever theme
 
 ## Getting Started
 

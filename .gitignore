@@ -3,7 +3,6 @@
 **/dist-ssr
 *.local
 **/assets
-**/static
 
 # Agever theme
 /agever/src/css
