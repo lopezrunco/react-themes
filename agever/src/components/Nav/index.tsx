@@ -32,7 +32,7 @@ export const Nav: React.FC = () => {
             <h1 className="main-logo">Web title</h1>
             <div className="img-logo">
                 <a href="/">
-                    <img src="./img/logo.png" alt="main logo" />
+                    <img src="../img/logo.png" alt="main logo" />
                 </a>
             </div>
             <nav className="main-nav">

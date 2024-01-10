@@ -2,6 +2,9 @@ import React from "react"
 
 import { Nav } from "../../components/Nav"
 import { Breadcrumbs } from "../../components/Breadcrumbs"
+import { FunFacts } from "../../components/FunFacts";
+import { CorporateVideo } from "../../components/CorporateVideo";
+import { ServicesIcons } from "../../components/ServicesIcons";
 
 interface AboutInfoI {
     text: string;
@@ -9,12 +12,6 @@ interface AboutInfoI {
 
 interface WhyUsListItemI {
     item: string;
-}
-
-interface AboutData {
-    aboutInfo: AboutInfoI[];
-    quote: string;
-    whyUsListItems: WhyUsListItemI[];
 }
 
 const aboutInfo: AboutInfoI[] = [
@@ -35,19 +32,6 @@ const whyUsListItems: WhyUsListItemI[] = [
     { item: 'Lorem ipsum dolo iste.' },
     { item: 'Lorem ior sit amet consectetu.' }
 ]
-
-interface ServicesI {
-    icon: string;
-    title: string;
-    link: string;
-}
-
-const services: ServicesI[] = [
-    { icon: 'fas fa-shield-alt', title: 'Service One', link: '/services/item' },
-    { icon: 'fas fa-home', title: 'Service Two', link: '/services/item' },
-    { icon: 'fas fa-briefcase', title: 'Service Three', link: '/services/item' },
-    { icon: 'fas fa-kiwi-bird', title: 'Service Four', link: '/services/item' }
-];
 
 interface TeamMemberI {
     imageSrc: string;
@@ -85,7 +69,8 @@ export const About: React.FC = () => {
                         </div>
                     </article>
                 </section>
-                {/* TO DO: Fun facts  */}
+                <FunFacts />
+                <CorporateVideo />
             </main>
         </React.Fragment>
     )
@@ -108,18 +93,7 @@ const MainContent: React.FC = () => {
 const SecContent: React.FC = () => {
     return (
         <div className="col-md-4 sec-content">
-            <div className="services-icons">
-                <ul>
-                    {services.map((service, index) => (
-                        <li key={index}>
-                            <a href={service.link}>
-                                <i className={service.icon}></i>
-                                <h5><a href={service.link}>{service.title}</a></h5>
-                            </a>
-                        </li>
-                    ))}
-                </ul>
-            </div>
+            <ServicesIcons />
             <div className="testimonial-card">
                 {teamMembers.map((el, i) => (
                     <div className="card" key={i}>
