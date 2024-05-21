@@ -1,6 +1,6 @@
 ## React theme bank
 
-This repository is a collection of React.js themes developed for personal web projects, started in 2020 and ongoing. These themes are designed to showcase various UI designs and functionalities, leveraging the power of React.js along with TypeScript for robust development.
+Collection of React.js themes developed for personal web projects. These themes are designed to showcase various UI designs and functionalities, leveraging the power of React.js and TypeScript.
 
 ## Features
 - Built using modern React.js principles
